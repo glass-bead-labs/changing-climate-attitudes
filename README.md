@@ -23,15 +23,12 @@ by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/davclar
 property="cc:attributionName" rel="cc:attributionURL">Dav Clark</a>
 is licensed under a
 <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">
-    Creative Commons Attribution-NoDerivatives 4.0 International License
-</a>.
+    Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
 <br />
 Based on a work at
 <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/glass-bead-labs/changing-climate-attitudes" rel="dct:source">
-    https://github.com/glass-bead-labs/changing-climate-attitudes
-</a>.
+    https://github.com/glass-bead-labs/changing-climate-attitudes</a>.
 Permissions beyond the scope of this license may be available at
 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/glass-bead-labs/changing-climate-attitudes/blob/master/LICENSE" rel="cc:morePermissions">
-    https://github.com/glass-bead-labs/changing-climate-attitudes/blob/master/LICENSE
-</a>.
+    https://github.com/glass-bead-labs/changing-climate-attitudes/blob/master/LICENSE</a>.
 
