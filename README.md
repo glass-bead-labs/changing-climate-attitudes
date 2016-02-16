@@ -9,6 +9,23 @@ please cite the appropriate reference. If in doubt, use
 Scientific Information Can Transform Attitudes. Topics in Cognitive Science, 8:
 49–75. doi: 10.1111/tops.12187
 
+All CSV files are provided in UTF-8 unless otherwise specified. Currently, the
+most definitive description of all experimental procedures is available in Dav
+Clark's dissertation, available [here]().
+
+College Student Data was collected via hand-entered paper forms, or Qualtrics.
+All Mechanical Turk data was collected via Qualtrics.
+
+In brief, the following terms are used to describe each dataset:
+
+- **cco** (Climate Change Online): Data collected via Amazon Mechanical Turn
+- **mech**: Data were collected before and after a presentation of the written
+  description of the climate change mechanism.
+- **core**: pre- and immediate post-test data.
+- **delayed_test**: delayed post-test data.
+- **notext**: Columns containing free text responses are not included. Ask Dav
+  for this info if needed.
+
 If you wish to share the dataset, please use the following code (you can
 copy-paste the raw HTML from the raw version of this README.md file):
 
@@ -31,4 +48,3 @@ Based on a work at
 Permissions beyond the scope of this license may be available at
 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/glass-bead-labs/changing-climate-attitudes/blob/master/LICENSE" rel="cc:morePermissions">
     https://github.com/glass-bead-labs/changing-climate-attitudes/blob/master/LICENSE</a>.
-
