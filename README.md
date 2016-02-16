@@ -11,7 +11,8 @@ Scientific Information Can Transform Attitudes. Topics in Cognitive Science, 8:
 
 All CSV files are provided in UTF-8 unless otherwise specified. Currently, the
 most definitive description of all experimental procedures is available in Dav
-Clark's dissertation, available [here]().
+Clark's dissertation, available
+[here](https://github.com/davclark/UCB_thesis/releases).
 
 College Student Data was collected via hand-entered paper forms, or Qualtrics.
 All Mechanical Turk data was collected via Qualtrics.
