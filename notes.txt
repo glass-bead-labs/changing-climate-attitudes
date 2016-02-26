@@ -1,0 +1,5 @@
+gw1_2: Human activities are largely responsible for the climate change (global warming) that is going on now.
+gw2_1: Global warming or climate changes, when they happen at all, are just parts of a natural cycle.
+gw2_2: I am certain that global warming is actually occurring.
+gw2_3: I am worried about global warming.
+gw2_4: Humans are severely abusing the environment.
