@@ -29,6 +29,9 @@ In brief, the following terms are used to describe each dataset:
 - Intervention:
     - **mech**: Data were collected before and after a presentation of the
       written description of the climate change mechanism.
+    - **mech+stats**: Data were collected before and after an extended
+      curriculum including surprising numerical statistics and the description
+      of the mechanism.
     - **core_intervention**: pre- and immediate post-test data (note that there
       are some "no pretest" participants - see paper for details).
     - **delayed_test**: delayed post-test data.
@@ -47,12 +50,14 @@ provided in `codes.py` that can perform this computation.
     - UCp_mech_core_intervention_notext.csv (85 students)
     - UT_mech_core_intervention_notext.csv (41 students)
 - Experiment 3 - online replication / extension at UC Berkeley:
-    - UCo_mech_core_intervention_notext.csv (79 valid students)
+    - UCo_mech_core_intervention_notext.csv (79 students with valid data)
     - UCo_mech_full_intervention_notext.csv (38 students)
 - Experiment 4 - online replication / extension on MTurk:
     - *`gw2_1`, `evo2_5`, and `evo2_6` are reverse-coded*
     - cco_mech_core_intervention_notext.csv (38 valid participants)
     - cco_mech_delayed_test_notext.csv (28 completed)
+- Experiment 5 - Expanded high school curriculum:
+    - HS_mech+stats_full_intervention.csv (63 students)
 
 If you wish to share the dataset, please use the following code (you can
 copy-paste the raw HTML from the raw version of this README.md file):
