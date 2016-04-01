@@ -32,21 +32,27 @@ In brief, the following terms are used to describe each dataset:
     - **core_intervention**: pre- and immediate post-test data (note that there
       are some "no pretest" participants - see paper for details).
     - **delayed_test**: delayed post-test data.
+    - **full_intervention**: Sometimes the core was redundantly included along
+      with delayed_test data.
 - Desiderata:
     - **notext**: Columns containing free text responses are not included. Ask
       Dav for this info if needed.
 
 The following are organized based on the Ranney & Clark (2016) TopiCS paper.
 Note that in some cases, exported data have been reverse coded. This is noted
-explicity:
+explicitly. If real knowledge scores have not been computed, python code is
+provided in `codes.py` that can perform this computation.
 
 - Experiment 2 - initial experiments at UC Berkeley and UT Brownsville:
-  - UCp_mech_core_intervention_notext.csv (85 students)
-  - UT_mech_core_intervention_notext.csv (41 students)
+    - UCp_mech_core_intervention_notext.csv (85 students)
+    - UT_mech_core_intervention_notext.csv (41 students)
+- Experiment 3 - online replication / extension at UC Berkeley:
+    - UCo_mech_core_intervention_notext.csv (79 valid students)
+    - UCo_mech_full_intervention_notext.csv (38 students)
 - Experiment 4 - online replication / extension on MTurk:
-  - *`gw2_1`, `evo2_5`, and `evo2_6` are reverse-coded*
-  - cco_mech_core_intervention_notext.csv (38 valid participants)
-  - cco_mech_delayed_test_notext.csv (28 completed)
+    - *`gw2_1`, `evo2_5`, and `evo2_6` are reverse-coded*
+    - cco_mech_core_intervention_notext.csv (38 valid participants)
+    - cco_mech_delayed_test_notext.csv (28 completed)
 
 If you wish to share the dataset, please use the following code (you can
 copy-paste the raw HTML from the raw version of this README.md file):
