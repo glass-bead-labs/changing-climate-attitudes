@@ -19,13 +19,34 @@ All Mechanical Turk data was collected via Qualtrics.
 
 In brief, the following terms are used to describe each dataset:
 
-- **cco** (Climate Change Online): Data collected via Amazon Mechanical Turn
-- **mech**: Data were collected before and after a presentation of the written
-  description of the climate change mechanism.
-- **core**: pre- and immediate post-test data.
-- **delayed_test**: delayed post-test data.
-- **notext**: Columns containing free text responses are not included. Ask Dav
-  for this info if needed.
+- Where collected:
+    - **cco** (Climate Change Online): Data collected via Amazon Mechanical
+      Turk
+    - **UCp** Collected at University of California, Berkeley *on paper*
+    - **UCo** Collected at University of California, Berkeley using an *online
+      survey* (but still in a testing room)
+    - **UT** Collected at University of Texas, Brownsville (on paper)
+- Intervention:
+    - **mech**: Data were collected before and after a presentation of the
+      written description of the climate change mechanism.
+    - **core_intervention**: pre- and immediate post-test data (note that there
+      are some "no pretest" participants - see paper for details).
+    - **delayed_test**: delayed post-test data.
+- Desiderata:
+    - **notext**: Columns containing free text responses are not included. Ask
+      Dav for this info if needed.
+
+The following are organized based on the Ranney & Clark (2016) TopiCS paper.
+Note that in some cases, exported data have been reverse coded. This is noted
+explicity:
+
+- Experiment 2 - initial experiments at UC Berkeley and UT Brownsville:
+  - UCp_mech_core_intervention_notext.csv (85 students)
+  - UT_mech_core_intervention_notext.csv (41 students)
+- Experiment 4 - online replication / extension on MTurk:
+  - *`gw2_1`, `evo2_5`, and `evo2_6` are reverse-coded*
+  - cco_mech_core_intervention_notext.csv (38 valid participants)
+  - cco_mech_delayed_test_notext.csv (28 completed)
 
 If you wish to share the dataset, please use the following code (you can
 copy-paste the raw HTML from the raw version of this README.md file):
