@@ -8,3 +8,14 @@ Experiment 2:
 They don't make an explicit argument, but Section 5.2, paragraph 1 again mentions a significant main effect of knowledge on beliefs (this time via knowledge manipulation).
 Our counter-argument is again that the sample is highly liberal. Clearly there is a positive relationship among liberals, but there is likely not one among conservatives.
 A useful analysis would investigate the distribution of conservatives and liberals and test for the evidence against a conservative × pre/post interaction.
+
+Experiment 3:
+They don't make an explicit argument, but Section 6.2, paragraph 1 again reports significant gains in global warming agreement. As in Experiments 1 and 2, the implication is that knowledge does bolster global warming agreement.
+Our counter-argument is again that the sample is highly liberal. Clearly there is a positive relationship among liberals, but there is likely not one among conservatives.
+A useful analysis would investigate the distribution of conservatives and liberals and test for the evidence against a conservative × pre/post interaction.
+
+Experiment 4:
+See argument in section 7.2, paragraph 2.
+"Notably, the correlation between conservatism and mean global warming acceptance gains was not significant and basically zero (r = 0.03, p = 0.85), indicating no polarization. Indeed, of the eight most conservative subjects, five increased their global warming acceptance, and only one (slightly) reduced his/her acceptance."
+Our concern is that there are too few participants to be able to detect such a correlation between conservatism and change scores. Thus, the reported correlation has a very wide confidence interval and cannot rule out even substantial correlations.
+Again, a useful analysis would identify the number of conservative participants and test for the evidence against a conservative × pre/post interaction or against a main effect of conservatism on change scores.
