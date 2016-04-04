@@ -1,0 +1,10 @@
+﻿Experiment 1:
+See argument in Section 3.2, paragraph 2.
+"Those knowing the most generally accepted global warming the most [...] mechanistic knowledge significantly correlated with one's global warming acceptance as occuring (r = .22, p < .001) and anthropogenic (r = .17, p = .005)."
+Our counter-argument is that Republicans may be under-represented in this sample relative to Dan's surveys. Thus, you may see a main effect, because the sample is restricted to Democrats, who have a positive correlation, and excludes Republicans, who have a negative correlation.
+A useful analysis would investigate the distribution of conservatives and liberals and test for the evidence against a conservative × knowledge interaction.
+
+Experiment 2:
+They don't make an explicit argument, but Section 5.2, paragraph 1 again mentions a significant main effect of knowledge on beliefs (this time via knowledge manipulation).
+Our counter-argument is again that the sample is highly liberal. Clearly there is a positive relationship among liberals, but there is likely not one among conservatives.
+A useful analysis would investigate the distribution of conservatives and liberals and test for the evidence against a conservative × pre/post interaction.
