@@ -49,13 +49,49 @@ exp2.flat %>%
   geom_line(aes(group = survey_number)) +
   facet_grid(party~question)
 
-# Can i reproduce their analyses?
+# Can I reproduce their analyses?
+# Paired-samples t-tests and other within-subjects pre-post analyses
+# Combine six "gw" items by summing
+exp2.comp = exp2.flat %>% 
+  group_by(survey_number, pre_post, party, conservative, sample) %>% 
+  summarize(composite = sum(value))
+
+# Full-sample analysis
+lmer(composite ~ pre_post + (1|survey_number), data = exp2.comp) %>% 
+  Anova(type = 3)
+lmer(composite ~ pre_post*conservative + (1|survey_number), data = exp2.comp) %>% 
+  Anova(type = 3)
+
+# Per manuscript, split by school
+# Berkeley -- Doesn't match yet, not sig. Sample size wrong?
+lmer(composite ~ pre_post + (1|survey_number), 
+     data = exp2.comp[exp2.comp$sample == "UC-Berkeley",]) %>% 
+  Anova(type = 3)
+lmer(composite ~ pre_post*conservative + (1|survey_number), 
+     data = exp2.comp[exp2.comp$sample == "UC-Berkeley",]) %>%
+  Anova(type = 3)
+
+# Brownville -- p-value seems about right
+lmer(composite ~ pre_post + (1|survey_number), 
+     data = exp2.comp[exp2.comp$sample == "UT-Brownsville",]) %>% 
+  Anova(type = 3)
+lmer(composite ~ pre_post*conservative + (1|survey_number), 
+     data = exp2.comp[exp2.comp$sample == "UT-Brownsville",]) %>%
+  Anova(type = 3)
+
+
 # Make pre/post difference scores and run t-test
-makeDiff = function(x) return(x[2] - x[1])
+makeDiff = function(x) return(x[2] - x[1]) # function subtracts "pre" from "post"
+# Demonstration: 
+# demo = data.frame("ID" = c(1, 1, 2, 2), 
+#                   "time" = c("pre", "post", "pre", "post"), 
+#                   "value" = c(4, 5, 6, 7))
+# demo %>% group_by(ID) %>% summarize_each(funs(makeDiff), value)
 diffs = exp2 %>% 
   group_by(survey_number) %>% 
   summarize_each(funs(makeDiff), starts_with("gw"))
 diffs$pre_post = "diff"
+
 # names(diffs)[-1] = paste(names(diffs)[-1], "diff", sep = "_")
 # exp2.diff = right_join(diffs, exp2, by = "survey_number") %>% 
 #   filter(pre_post == "post", n_s == "s") %>% 
@@ -63,26 +99,30 @@ diffs$pre_post = "diff"
 # exp2 %>% filter(survey_number == 1) %>% select(starts_with("gw"),)
 # exp2.diff %>% filter(survey_number == 1) %>% select(starts_with("gw"))
 
+# Add difference scores as further rows to original dataset.
 # TODO: double-check the direction of difference.
 exp2 = bind_rows(exp2, diffs) %>% 
   arrange(survey_number) %>% 
   select(-X)
 exp2 %>% select(survey_number, pre_post, starts_with("gw"))
 
+# Make dataset of difference scores
+# TODO: get the subject-level stuff back on here (e.g. political views)
 exp2.diff = exp2 %>% 
-  select(survey_number, pre_post, starts_with("gw")) %>% 
-  filter(pre_post == "diff")
+  select(survey_number, party, conservative, sample, pre_post, starts_with("gw")) %>% 
+  filter(pre_post == "diff") %>% 
+  mutate(gw_composite = gw1_2 + gw2_1 + gw2_2 + gw2_3 + gw2_4)
 
-# two-sample t-tests of difference scores
+# one-sample t-tests of difference scores
 #  something's not quite right
 t.test(exp2.diff$gw1_2)
 t.test(exp2.diff$gw2_1)
 t.test(exp2.diff$gw2_2)
 t.test(exp2.diff$gw2_3)
 t.test(exp2.diff$gw2_4)
-t.test(exp2.diff$gw_composite_diff)
-t.test(exp2.diff$gw_composite_diff[exp2.diff$sample == "UC-Berkeley"]) # does not match
-t.test(exp2.diff$gw_composite_diff[exp2.diff$sample == "UT-Brownsville"]) # approx match
+t.test(exp2.diff$gw_composite)
+# t.test(exp2.diff$gw_composite[exp2.diff$sample == "UC-Berkeley"]) # does not match
+# t.test(exp2.diff$gw_composite[exp2.diff$sample == "UT-Brownsville"]) # approx match
 
 
 # Bayes factor model?
