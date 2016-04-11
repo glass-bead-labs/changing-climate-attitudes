@@ -30,13 +30,16 @@ exp2.2 = exp2.2 %>% select(X:reread, total.score, sample)
 exp2 = bind_rows(exp2.1, exp2.2)
 exp2$pre_post = factor(exp2$pre_post, levels = c("pre", "post"))
 
+# Check combined dataset for number of conservatives
 table(exp2$conservative)
 barplot(table(exp2$conservative))
 table(exp2$party) # 8 republicans out of 175
 
+# Flatten dataset for ggplot2's facet_grid
 exp2.flat = exp2 %>%
   gather(key = "question", value = "value", starts_with("gw"))
  
+# Plot pre/post changes among democrats & republicans for each item
 exp2.flat %>% 
   filter(party %in% c("democrat", "republican")) %>% 
   #separate(question, into = c("question", "time"), sep = -4) %>% 
@@ -47,6 +50,7 @@ exp2.flat %>%
   facet_grid(party~question)
 
 # Can i reproduce their analyses?
+# Make pre/post difference scores and run t-test
 makeDiff = function(x) return(x[2] - x[1])
 diffs = exp2 %>% 
   group_by(survey_number) %>% 
@@ -69,7 +73,8 @@ exp2.diff = exp2 %>%
   select(survey_number, pre_post, starts_with("gw")) %>% 
   filter(pre_post == "diff")
 
-# t-tests -- something's not quite right
+# two-sample t-tests of difference scores
+#  something's not quite right
 t.test(exp2.diff$gw1_2)
 t.test(exp2.diff$gw2_1)
 t.test(exp2.diff$gw2_2)
