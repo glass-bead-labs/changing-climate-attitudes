@@ -34,8 +34,12 @@ exp2.2 = exp2.2 %>% select(X:reread, total.score, sample)
 exp2 = bind_rows(exp2.1, exp2.2) %>% 
   mutate(gw_mean = (gw1_2 + gw2_1 + gw2_2 + gw2_3 + gw2_4)/5,
          gw_plus_mean = (gw_mean*5 + lifestyle)/6)
-# Make pre/post into a factor, set levels for plotting convenience  
+# Make pre/post into a factor, set levels for plotting convenience, contrast code  
 exp2$time = factor(exp2$pre_post, levels = c("pre", "post"))
+exp2$time = C(exp2$time, sum)
+# sort by survey_number and pre-post so that difference scores can be calculated by position
+exp2 = exp2 %>% 
+  arrange(survey_number, desc(pre_post))
 
 # Check combined dataset for number of conservatives
 table(exp2$conservative, useNA = 'always')
@@ -44,15 +48,23 @@ table(exp2$party, useNA = 'always') # 8 republicans out of 175
 
 # Flatten dataset for ggplot2's facet_grid
 exp2.flat = exp2 %>%
-  gather(key = "item", value = "value", starts_with("gw"))
+  gather(key = "item", value = "value", starts_with("gw"), lifestyle)
+
+# Plot pre/post changes among all subjects
+exp2.flat %>% 
+  filter(!(item %in% c("gw_mean", "gw_plus_mean"))) %>% 
+  ggplot(aes(x = time, y = value)) +
+  geom_point(position = position_jitter(width = .1, height = .02)) +
+  geom_line(aes(group = survey_number), lwd = 2, alpha = .25) +
+  facet_grid(~item)
  
 # Plot pre/post changes among democrats & republicans for each item
 exp2.flat %>% 
   filter(party %in% c("democrat", "republican")) %>% 
   filter(!(item %in% c("gw_mean", "gw_plus_mean"))) %>% 
-  ggplot(aes(x = time, y = value)) +
+  ggplot(aes(x = time, y = value, col = sample)) +
   geom_point(position = position_jitter(width = .1, height = .02)) +
-  geom_line(aes(group = survey_number)) +
+  geom_line(aes(group = survey_number), lwd = 2, alpha = .25) +
   facet_grid(party~item)
 
 # Plot pre/post changes for two aggregate strategies
@@ -60,22 +72,26 @@ exp2.flat %>%
   filter(party %in% c("democrat", "republican")) %>% 
   #separate(item, into = c("item", "time"), sep = -4) %>% 
   filter(item %in% c("gw_mean", "gw_plus_mean")) %>% 
-  ggplot(aes(x = time, y = value)) +
+  ggplot(aes(x = time, y = value, col = sample)) +
   geom_point(position = position_jitter(width = .1, height = .02)) +
-  geom_line(aes(group = survey_number)) +
+  geom_line(aes(group = survey_number), lwd = 2, alpha = .25) +
   facet_grid(party~item)
 
 # Can I reproduce their analyses?
 # Paired-samples t-tests and other within-subjects pre-post analyses
 # Full-sample analysis
-exp2.m1 = lmer(gw_mean ~ pre_post + (1|survey_number), data = exp2) 
-exp2.m2 = lmer(gw_mean ~ pre_post*conservative + (1|survey_number), data = exp2)
-exp2.m3 = lmer(gw_plus_mean ~ pre_post + (1|survey_number), data = exp2) 
-exp2.m4 = lmer(gw_plus_mean ~ pre_post*conservative + (1|survey_number), data = exp2)
+exp2.m1 = lmer(gw_mean ~ time + (1|survey_number), data = exp2) 
+exp2.m2 = lmer(gw_mean ~ time*conservative + (1|survey_number), data = exp2)
+exp2.m3 = lmer(gw_plus_mean ~ time + (1|survey_number), data = exp2) 
+exp2.m4 = lmer(gw_plus_mean ~ time*conservative + (1|survey_number), data = exp2)
 
+# Basic model finds signif. pre/post effect
 summary(exp2.m1); Anova(exp2.m1, type = 3)
-summary(exp2.m2); Anova(exp2.m2, type = 3)
+# Adding "conservative" reduces pre-post effect to nonsig
+summary(exp2.m2); Anova(exp2.m2, type = 3) 
+# Pattern is the same for composite including "lifestyle"
 summary(exp2.m3); Anova(exp2.m3, type = 3)
+# Again, adding "conservative" reduces pre-post effect to nonsig
 summary(exp2.m4); Anova(exp2.m4, type = 3)
 
 # Per manuscript, split by school
@@ -117,90 +133,54 @@ summary(exp2.m4.utb); Anova(exp2.m4.utb, type = 3)
 # Perhaps more conservative people are more likely to drop out?
 # TODO: Count up number of obs per subject, see if conservatives drop out?
 
-# Make pre/post difference scores and run t-test
+# Make dataset of difference scores ----
 makeDiff = function(x) return(x[2] - x[1]) # function subtracts "pre" from "post"
 # Demonstration: 
-# demo = data.frame("ID" = c(1, 1, 2, 2), 
-#                   "time" = c("pre", "post", "pre", "post"), 
-#                   "value" = c(4, 5, 6, 7))
+# demo = data.frame("ID" = c(1, 1, 2, 2, 3, 4, 4),
+#                   "time" = c("pre", "post", "pre", "post", "pre", "pre", "post"),
+#                   "value" = c(4, 5, 6, 7, -10, 1, 2))
 # demo %>% group_by(ID) %>% summarize_each(funs(makeDiff), value)
 diffs = exp2 %>% 
   group_by(survey_number) %>% 
-  summarize_each(funs(makeDiff), starts_with("gw"))
+  summarize_each(funs(makeDiff), starts_with("gw"), lifestyle)
 diffs$pre_post = "diff"
-
-# names(diffs)[-1] = paste(names(diffs)[-1], "diff", sep = "_")
-# exp2.diff = right_join(diffs, exp2, by = "survey_number") %>% 
-#   filter(pre_post == "post", n_s == "s") %>% 
-#   mutate(gw_composite_diff = gw1_2_diff + gw2_1_diff + gw2_2_diff + gw2_3_diff + gw2_4_diff)
-# exp2 %>% filter(survey_number == 1) %>% select(starts_with("gw"),)
-# exp2.diff %>% filter(survey_number == 1) %>% select(starts_with("gw"))
-
-# Add difference scores as further rows to original dataset.
-# TODO: double-check the direction of difference.
-exp2 = bind_rows(exp2, diffs) %>% 
-  arrange(survey_number) %>% 
-  select(-X)
-exp2 %>% select(survey_number, pre_post, starts_with("gw"))
-
-# Make dataset of difference scores ----
-# TODO: get the subject-level stuff back on here (e.g. political views)
+# Join for debugging
+exp2.diff.debug = bind_rows(exp2, diffs) %>% 
+  arrange(survey_number)
+# exp2.diff.debug %>% 
+#   select(survey_number, pre_post, starts_with("gw"), lifestyle, sample) %>% 
+#   View
+# Join with subject-level data (e.g. political views)
 exp2.diff = exp2 %>% 
-  select(survey_number, party, conservative, sample, pre_post, starts_with("gw")) %>% 
-  filter(pre_post == "diff") %>% 
-  mutate(gw_composite = gw1_2 + gw2_1 + gw2_2 + gw2_3 + gw2_4)
+  select(survey_number, party, conservative, sample) %>% 
+  right_join(diffs, by = "survey_number")
 
 # one-sample t-tests of difference scores
-#  something's not quite right
 t.test(exp2.diff$gw1_2)
 t.test(exp2.diff$gw2_1)
 t.test(exp2.diff$gw2_2)
 t.test(exp2.diff$gw2_3)
 t.test(exp2.diff$gw2_4)
-t.test(exp2.diff$gw_composite)
-# t.test(exp2.diff$gw_composite[exp2.diff$sample == "UC-Berkeley"]) # does not match
-# t.test(exp2.diff$gw_composite[exp2.diff$sample == "UT-Brownsville"]) # approx match
+t.test(exp2.diff$gw_mean) 
+t.test(exp2.diff$gw_plus_mean) 
+# Separated by schools as reported in manuscript
+t.test(exp2.diff$gw_mean[exp2.diff$sample == "UC-Berkeley"]) # sig, p = .028
+t.test(exp2.diff$gw_mean[exp2.diff$sample == "UT-Brownsville"]) # sig, p < .001
+t.test(exp2.diff$gw_plus_mean[exp2.diff$sample == "UC-Berkeley"]) # sig, p = .002
+t.test(exp2.diff$gw_plus_mean[exp2.diff$sample == "UT-Brownsville"]) # sig, p < .001
+# adding conservatism as a moderator
+exp2.diff.m1 = lm(gw_plus_mean ~ conservative, data = exp2.diff)
+summary(exp2.diff.m1) # Sig intercept remains
 
+# Plot it
+ggplot(exp2.diff, aes(x = conservative, y = gw_plus_mean)) +
+  geom_jitter() + 
+  geom_smooth(alpha = .25) +
+  geom_smooth(method = 'lm', col = 'red', alpha = .25)
 
-# Bayes factors via model comparison ----
-# Code and discard those who dropped out before post
-exp2.bf = exp2 %>% 
-  filter(n_s == "s") %>%  # Drop post-only
-  select(survey_number, gw_composite, pre_post, conservative) %>% 
-  filter(complete.cases(.)) %>% # Drop casewise missing
-  mutate(survey_number = as.factor(survey_number)) 
-# See who doesn't have both timepoints
-tab = table(exp2.bf$survey_number) 
-tab[tab == 1]
-tab[tab == 1] %>% names
-# drop them
-exp2.bf = exp2.bf %>% 
-  filter(!survey_number %in% names(tab[tab==1])) %>% 
-  as.data.frame()
-
-# Could plot distribution of change scores given T1 score
-# or distribution of change scores given conservative
-
-# run BayesFactor models
-exp2.m0 = lmBF(gw_mean ~ survey_number, data = exp2.bf)
-exp2.m1 = lmBF(gw_mean ~ pre_post + survey_number, data = exp2.bf)
-exp2.m2 = lmBF(gw_mean ~ conservative + survey_number, data = exp2.bf,
-               iterations = 5e3)
-exp2.m3 = lmBF(gw_mean ~ conservative + pre_post + survey_number, data = exp2.bf,
-               iterations = 1e5)
-exp2.m4 = lmBF(gw_mean ~ conservative * pre_post + survey_number, data = exp2.bf, 
-               iterations = 1e5)
-
-exp2.bayesResult = c(exp2.m0, exp2.m1, exp2.m2, exp2.m3, exp2.m4)
-exp2.bayesResult
-plot(exp2.bayesResult)
-
-exp2.m4/exp2.m3 # evidence against interaction -- perhaps they are right
-
-# TODO: run again with gw_plus_mean
-# TODO: run BayesFactor models with party code?
-
-
+# Export for Bayes analyses
+write.table(exp2, "./hilgard_cleaned_data/exp2.csv", row.names = F)
+write.table(exp2, "./hilgard_cleaned_data/exp2diff.csv", row.names = F)
 
 # Experiment 3 ----
 exp3.1 = read.csv("UCo_mech_core_intervention_notext.csv") 
@@ -233,12 +213,20 @@ exp3 = bind_rows(exp3.1, exp3.2) %>%
          gw_mean_pst = (gw1_2_pst + gw2_1_pst + gw2_2_pst + gw2_3_pst + gw2_4_pst)/5,
          gw_plus_mean_pst = (gw_mean_pst*5 + engage_pst + lifsty_pst)/7,
          gw_mean_fol = (gw1_2_fol + gw2_1_fol + gw2_2_fol + gw2_3_fol + gw2_4_fol)/5,
-         gw_plus_mean_fol = (gw_mean_fol*5 + engage_fol + lifsty_fol)/7,
+         gw_plus_mean_fol = (gw_mean_fol*5 + engage_fol + lifsty_fol)/7, 
          conservative = social.cons + econ.cons) 
+
 # Also appears to be no subject identifier so we'll add one
 exp3$ID = factor(1:nrow(exp3))
 
+# Check that things weren't reverse-scored or something
+# exp3 %>% 
+#   select(starts_with("gw"), starts_with("lifsty"), starts_with("engage") %>% 
+#            c
+
 # See how many conservatives we've got.
+table(exp3$conservati, useNA = 'always')
+barplot(table(exp3$conservati, useNA = 'always'))
 # Conservatism items: social and economic. Most data is missing.
 table(exp3$social.cons, useNA='always')
 barplot(table(exp3$social.cons, useNA = 'always')) 
@@ -247,6 +235,7 @@ barplot(table(exp3$econ.cons, useNA = 'always'))
 # Political party. Most are "none", "NA", or "democrat"
 table(exp3$party, useNA = 'always')
 table(exp3$party.pre, useNA = 'always')
+barplot(table(exp3$party, useNA = 'always'))
 
 # Flatten dataset and separate() columns by timepoint
 exp3.flat = exp3 %>% 
@@ -258,27 +247,35 @@ exp3.flat = exp3 %>%
   separate(col = item, into = c("item", "time"), sep = -4)  %>% 
   mutate(item = substr(item, 1, nchar(item) - 1)) %>% # drop the excess underscore for tidiness
   mutate(time = factor(time, levels = c("pre", "pst", "fol"))) # rearrange levels for plotting 
-
+# Note that can't make simple -1, 1 contrast code for 3-way factor. hmm.
 # Spread items back out so that I can refer to gw_mean or gw_plus_mean
 exp3.wide = exp3.flat %>% 
   filter(item %in% c("gw_mean", "gw_plus_mean")) %>% 
   spread(key = item, value = value)
 
 # Debugging ----
-View(exp3.flat[exp3.flat$ID == 1,] )
+#View(exp3.flat[exp3.flat$ID == 1,] )
 
 # Analyses ----
 # NOTE: May be necessary yet to filter according to completeness
 # Pre/post LMER
 exp3.m1 = lmer(gw_mean ~ time + (1|ID), data = exp3.wide)
-exp3.m2 = lmer(gw_mean ~ time * conservative + (1|ID), data = exp3.wide)
+exp3.m2 = lmer(gw_mean ~ time * conservati + (1|ID), data = exp3.wide)
 exp3.m3 = lmer(gw_plus_mean ~ time + (1|ID), data = exp3.wide)
-exp3.m4 = lmer(gw_plus_mean ~ time * conservative + (1|ID), data = exp3.wide)
+exp3.m4 = lmer(gw_plus_mean ~ time * conservati + (1|ID), data = exp3.wide)
 
-summary(exp3.m1); Anova(exp3.m1, type = 3)
+# mean of gw items is sig at post (t = 1.83) but not at fol (t = .80)
+summary(exp3.m1); Anova(exp3.m1, type = 3) 
+# Adding conservative to model abolishes improvement at post (t = .198)
 summary(exp3.m2); Anova(exp3.m2, type = 3)
+# mean of gw + lifesty + engage not sig at post (t = 1.41) or fol (.81)
 summary(exp3.m3); Anova(exp3.m3, type = 3)
+# Adding conservative to model reveals only sig effect of conservative
 summary(exp3.m4); Anova(exp3.m4, type = 3)
+
+# Make and analyze difference scores ----
+# TODO. Not sure how I'd handle this with 3 timepoints.
+
 
 # Plots ----
 # NOTE: Something's wrong here!!! Where's my time == "pre" data?
@@ -290,7 +287,7 @@ exp3.flat %>%
   filter(!(item %in% c("gw_mean", "gw_plus_mean"))) %>% 
   ggplot(aes(x = time, y = value)) +
   geom_point(position = position_jitter(width = .1, height = .02)) +
-  geom_line(aes(group = ID)) +
+  geom_line(aes(group = ID), lwd = 2, alpha = .2) +
   facet_grid(party~item)
 
 # Plot pre/post changes for two aggregate strategies
