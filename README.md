@@ -55,6 +55,8 @@ provided in `codes.py` that can perform this computation.
       and followup data, `_pre` data avilable only for `knwgbl`)
     - UCo_mech_full_intervention_notext.csv (38 students, all `_pre` data
       available from pre-screening survey - if unmarked, data is "pre")
+    - UCo_mech_prescreening.csv (324 students, source of `_pre` data above,
+      question text is on second line)
 - Experiment 4 - online replication / extension on MTurk:
     - *`gw2_1`, `evo2_5`, and `evo2_6` are reverse-coded*
     - cco_mech_core_intervention_notext.csv (38 valid participants)

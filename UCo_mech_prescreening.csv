@@ -1,0 +1,326 @@
+cc_inst_1,cc_inst_2,cc_inst_3,cc_inst_4,cc_inst_5,cc_inst_6,cc_inst_7,cc_inst_8,cci_desc,citizen,eng_years,math_class,math_grade,math_sat_1,rtmd_inst,evo1_1,gw1_2,nat1_3,dty1_4,aft1_5,cre1_6,gw2_1,gw2_2,gw2_3,gw2_4,evo2_5,evo2_6,engage,aft2,aft3,dty2,dty3,cre2,cre3,nat2,life_inst,knwgbl,lifesty,nat_mil1_1,pni_inst,pni1,pni2,pni3,pni4,pni5,pni6,pni7,pni8,pni9,pni10,pni11,pni12,pni13,pni14,pni15,pni16,pni17,pni18,pni19,pni20
+Have you received any instruction regarding Global Warming (Climate Change) in the last 2 years? If...-Winter 2011-2012,Have you received any instruction regarding Global Warming (Climate Change) in the last 2 years? If...-Fall Semester 2011,Have you received any instruction regarding Global Warming (Climate Change) in the last 2 years? If...-Summer 2011,Have you received any instruction regarding Global Warming (Climate Change) in the last 2 years? If...-Spring Semester 2011,Have you received any instruction regarding Global Warming (Climate Change) in the last 2 years? If...-Winter 2010-2011,Have you received any instruction regarding Global Warming (Climate Change) in the last 2 years? If...-Fall Semester 2010,Have you received any instruction regarding Global Warming (Climate Change) in the last 2 years? If...-Summer 2010,Have you received any instruction regarding Global Warming (Climate Change) in the last 2 years? If...-Spring 2010,Please describe the instruction you received regarding Global Warming (Climate Change),Are you a U.S. citizen or permanent resident?,"If English is not your first language, how many years have you been speaking English? (Please round...",What is the highest level math class you have completed? (Please give the department and course numb...,What grade did you recieve for the above math class?,"What is the highest score you received on the SAT math section? (If you are unsure, please provide a...-SAT math score","Please respond to the following items, if / you will, by indicating the degree to which you agree with...",Evolution accurat...,Human activities are largely / responsible for the climate change (global warming) that is going on no...,"The / United States is one of the very best countries on our planet (e.g., ‰ÛÏin the / top three‰Û�).","There / exists a supernatural being/deity (e.g., God) or set of beings/deities (gods).","After a person dies, that / person experiences an afterlife of some sort (for instance, heaven/hell, / r...","Biblical / creation accurately explains how plants, animals, and humans came to be as they / are.","Global warming or climate / changes, when they happen at all, are just parts of a natural cycle.",I am / certain that global warming is actually occurring.,I am / worried about global warming.,Humans / are severely abusing the environment.,Evolution is unable to / explain much of the physical evidence regarding the origins and development o...,"Other / living things may have evolved, but humans have not.","I intend to personally engage in more environmentally-friendly (e.g., sustainable, recycling, and/or...","After a person dies, that person lives on in some way.",I don't believe that heaven exists.,God is created by human imagination.,The only true God is that of my religion.,A supreme being has never played any role in the origin or development of life on earth.,"To me, creation gives a more satisfying explanation of life on Earth than does evolution.",The united States can fix just about any problem it might unintentionally create.,Please note the change in wording for the / following questions,Please indicate the degree to which you are knowledgeable / about climate change‰ÛÒ‰ÛÒby choosing a number...,"Overall, how important is it to change your current lifestyle to reduce your carbon footprint (i.e.,...",How many countries could defeat the U.S. militarily?-Countries,"Please respond to the following items, if / you will, by indicating the degree to which you agree with...",I enjoy work that requires the use of numbers.,I think quantitative information is difficult to understand.,I find it satisfying to solve day-to-day problems involving numbers.,Numerical information is very useful in everyday life.,I prefer not to pay attention to information involving numbers.,I think more information should be available in numerical form.,I don't like to think about issues involving numbers.,Numbers are not necessary for most situations.,Thinking is enjoyable when it does not involve quantitative information.,I like to make calculations using numerical information.,Quantitative information is vital for accurate decisions.,I enjoy thinking about issues that do not involve numerical information.,Understanding numbers is as important in daily life as reading or writing.,"I easily lose interest in graphs, percentages, and other quantitative information.",I don't find numerical information to be relevant for most situations.,I think it is important to learn and use numerical information to make well-informed decisions.,Numbers are redundant for most situations.,It is a waste of time to learn information containing a lot of numbers.,I like to go over numbers in my mind.,It helps me to think if I put down information as numbers.
+,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,
+,1,,,1,,,,Aninconvenient truth / ,2,22,math 100,3,728,1,6,6,4,5,4,6,4,6,8,8,5,5,7,6,2,4,7,6,3,4,1,5,7,47,1,7,7,7,4,6,6,4,4,5,7,4,5,3,5,4,5,3,3,6,5
+,,,,,,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,
+1,,,,,,,,999,,,,,,1,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,2,,GCSE O Level Additional Math,1,,1,8,8,5,3,4,1,6,6,6,7,4,1,6,6,9,8,1,8,1,3,1,6,4,3,1,3,6,2,7,6,6,7,3,7,3,6,8,8,7,6,4,6,6,3,4
+,,,,,,,,,1,,Math 16B,1,632,1,9,9,7,1,5,1,1,9,7,9,5,5,5,7,9,7,1,7,2,2,1,7,5,4,1,6,4,6,7,7,6,5,7,4,7,6,5,6,6,4,7,3,4,5,5
+,,,,,,,,,1,,Statistics 1,2,,1,6,9,1,5,5,2,3,7,7,9,3,1,7,6,5,5,5,5,3,3,1,5,9,4,1,7,6,4,7,3,6,5,4,5,7,6,7,7,4,4,5,4,3,8,5
+,1,,,,,,,One lecture in a CogSci 1 class; end-of-semester research project for CogSci/Ling. 104.,1,,,3,651,1,7,8,2,2,1,1,4,9,6,8,1,1,3,3,9,8,1,8,1,2,1,4,5,20,1,4,6,6,6,5,6,1,2,5,4,7,7,6,4,4,6,2,5,6,5
+,1,,,,,,,"I received instruction on Global Warming from Environmental Science 10. This course tells us that Global Warming causes evaporation from oceans, and increases water vapor in the atmosphere, thus enhances the greenhouse effect. Global Warming also increases the cloud cover and decreases absorption of solar energy. Lastly, Global Warming decreases the snow cover and brings harmful effects to the ecology.",1,7,Math 54,2,780,1,6,8,7,7,6,5,4,8,8,8,3,3,6,6,3,5,5,5,3,2,1,6,6,0,1,7,2,6,8,2,6,3,4,6,8,8,3,5,1,4,6,1,3,4,7
+,,,,,,,,,1,,Psychology 101 (statistics),1,789,1,5,7,9,9,9,9,2,9,5,9,5,5,5,9,1,1,9,1,9,4,1,2,3,6,1,3,6,4,7,7,4,7,6,8,4,6,6,6,4,7,7,4,4,3,3
+,,,,,,,,,1,,Statistics 142,1,,1,1,6,3,9,9,9,6,6,6,7,9,5,7,7,1,1,9,1,9,3,1,5,5,19,1,3,5,3,5,3,3,7,6,7,3,6,8,3,7,4,5,4,4,3,3
+,,,,,,,,,1,,Math 1B,3,720,1,9,9,5,1,1,1,1,9,9,9,1,1,5,1,9,9,1,9,1,1,1,9,5,,1,9,1,9,9,1,9,1,1,1,9,9,1,9,1,1,9,1,1,9,9
+,1,,,,,,,It's happening.,1,,Math 16B,3,657,1,7,9,1,5,7,5,4,8,8,8,5,5,9,7,5,5,5,5,5,2,1,2,7,10,1,7,4,6,6,5,4,6,7,8,7,8,7,7,7,3,5,7,5,3,3
+,,,,,,,,,2,1,linear algebra ,1,656,1,1,9,8,9,5,1,5,8,9,9,8,8,9,9,3,5,1,5,7,1,1,5,5,0,1,5,3,5,5,5,7,3,3,4,5,3,5,4,4,5,7,5,3,3,6
+,,,,,,,,,1,,Math 55,2,642,1,6,7,8,5,7,6,3,9,6,8,5,2,7,9,3,5,3,5,7,2,1,4,7,5,1,6,6,5,9,6,5,5,3,5,5,9,8,9,2,3,9,4,1,1,6
+,,,,,,,,,2,,A level H2 Maths,1,,1,6,7,5,6,6,5,6,7,8,6,5,4,5,5,4,4,3,3,4,5,1,6,6,0,1,6,4,7,7,3,6,3,3,4,6,7,5,6,4,4,7,4,4,6,6
+,,,,,,,,,2,10,math2,2,685,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,5,5,25,1,5,5,5,5,5,5,5,6,5,5,6,5,5,5,4,5,5,4,5,5
+,1,1,1,1,,,,"ES100, ESPM c10, freshman/sophomore seminar on climate change",1,,math 16B,2,620,1,7,7,7,9,9,5,5,8,9,9,1,5,9,9,1,1,1,1,5,1,1,5,9,4,1,5,5,5,9,4,5,5,5,9,9,6,9,6,3,4,9,5,5,5,5
+,,,,,,,,,1,,,,660,1,7,8,4,5,5,5,3,9,8,7,4,1,9,9,5,5,5,5,4,1,1,7,8,50,1,2,5,6,7,7,5,7,5,7,3,4,7,7,8,4,7,3,5,2,6
+,,,,,,,,,1,11,AP Calculus BC (in high school),1,709,1,9,8,1,1,1,1,3,9,8,7,2,1,7,6,9,9,1,9,1,6,1,6,6,,1,6,3,5,6,5,5,5,6,4,6,7,5,6,5,4,6,4,4,4,5
+,,,,,,,,,1,,Math 16B,1,800,1,8,8,6,5,7,5,2,8,8,7,2,5,8,6,4,5,1,5,5,5,1,8,8,10,1,6,2,6,6,3,7,4,2,7,5,6,7,7,3,2,5,5,3,5,6
+,,,,,,,,,2,,MTH115,1,600,1,7,7,5,5,5,1,7,7,9,9,1,1,8,5,7,8,1,9,1,1,1,8,7,0,1,7,3,7,6,2,6,3,5,2,7,8,5,7,3,3,7,4,2,7,5
+,,,1,,,,,the climate is become warmer and warmer,2,3,MTH124,1,750,1,6,8,7,6,6,4,4,6,3,8,4,6,4,6,3,4,4,8,7,6,1,7,7,61,1,6,7,6,6,4,7,6,5,7,5,6,4,8,6,4,7,8,6,6,7
+,1,,,,,,,"That the temperature is rising over time. This can be observed in ice cores, where isotopes of Oxygen are changing. Heaving Oxygen= warmer temperature. ",1,,Math 16B,2,606,1,6,6,5,7,7,6,6,7,5,6,3,4,6,6,3,3,4,2,5,1,1,5,5,5,1,4,3,5,5,4,6,5,4,5,4,6,5,6,5,2,6,,4,6,6
+,,,,,,,,,1,,Math 54,3,800,1,7,7,4,7,2,1,3,7,8,8,3,1,7,6,7,4,1,4,1,3,1,7,7,2,1,7,3,8,7,2,6,3,2,7,7,8,7,9,4,2,8,5,2,7,8
+,,,,,,,,,1,17,Math 54,2,711,1,1,5,9,9,9,9,7,5,5,9,9,5,7,9,1,1,9,1,9,2,1,3,6,,1,8,2,8,7,1,8,1,2,5,8,8,2,9,2,2,7,2,2,5,5
+,,,,,,,,,1,14,Math 1B,1,760,1,7,7,1,5,5,1,3,8,7,9,4,1,9,7,5,5,1,5,1,1,1,7,8,13,1,7,4,5,6,3,3,5,6,8,7,2,8,4,3,6,4,5,4,6,4
+,,,,,,,,,1,,college calculus,1,800,1,5,5,5,5,5,5,5,6,6,5,4,5,5,6,5,5,5,5,5,5,1,6,6,4,1,6,5,5,5,4,6,5,5,5,6,6,4,5,5,4,5,4,4,6,6
+,1,,,,,,,We went over the effects and causes of global warming briefly in the Biology 1B course I had taken at Berkeley in the last Fall semester.,1,,Math 1B,1,690,1,6,3,2,7,8,2,7,7,6,8,6,2,,8,2,2,7,2,5,1,1,6,6,4,1,7,2,8,8,3,7,3,2,6,8,7,3,7,3,3,8,2,1,8,8
+,,,,,,,,,2,,Not done in berkeley - Matrices and linear algebra,1,791,1,9,7,5,1,1,1,6,7,8,7,7,1,6,1,8,9,1,9,1,3,1,5,5,2,1,4,4,4,8,3,8,5,3,7,6,7,6,8,3,3,8,3,3,6,7
+,,,,,,,,,1,,Statistics ,1,620,1,8,7,6,6,6,5,6,6,7,7,4,3,7,8,5,5,4,6,5,5,1,3,7,10,1,4,6,4,7,5,4,6,,5,6,7,6,7,5,4,6,4,4,6,5
+1,,,,,,,,"I took a class on Bioenergy, PMB 122, during Spring Semester 2012. We discussed the carbon cycle and possible effects of carbon dioxide, methane, and other gases in increasing global temperatures.",1,,"Linear Algebra and Differential Equations, Math 54",2,800,1,9,7,4,3,5,2,5,8,8,7,1,2,5,5,3,3,1,3,6,2,1,8,6,2,1,7,2,6,8,1,7,2,2,2,7,8,1,8,2,3,8,2,2,6,7
+,,,,,,,,,1,,Mathematics 1B,2,800,1,6,7,4,6,6,3,6,6,6,4,3,3,5,7,3,3,3,3,3,3,1,5,7,40,1,5,4,6,6,4,4,4,5,6,4,5,7,7,4,4,5,4,5,4,4
+,,,,,,,,,1,12,Math 16B,1,780,1,3,7,6,9,9,5,4,5,7,7,,3,7,9,1,1,7,1,7,3,1,6,7,4,1,6,3,5,7,3,5,3,4,6,6,8,5,5,3,3,8,4,2,4,6
+,,,,,,,,,1,,Math 220,1,750,1,7,7,3,5,5,5,5,7,6,6,3,4,7,5,5,5,5,5,3,3,1,5,5,13,1,6,3,7,7,3,5,3,6,5,6,8,5,7,2,3,8,4,1,5,7
+,,,1,,,,1,,1,,AP Stats (High School),1,691,1,9,7,2,3,4,1,,7,7,9,2,1,7,3,7,7,1,7,1,3,1,7,7,3,1,5,2,7,7,5,5,5,4,6,5,6,3,6,2,4,5,5,5,4,6
+,,,,,,,,,1,,Statistics,2,,1,8,8,7,7,5,,6,8,,9,4,2,,6,5,,6,5,6,1,1,5,7,5,1,5,6,6,8,4,5,4,3,6,7,6,5,8,5,3,7,4,3,6,5
+,,,,,,,,,2,,"Carnegie Mellon University School of Computer Science, 15-251",1,800,1,7,7,5,9,9,9,5,8,8,8,7,6,4,9,1,1,9,1,5,2,1,5,7,,1,7,2,7,7,3,5,4,4,4,7,7,4,8,7,3,7,3,8,6,7
+,,,,,,,,,1,,calculus II,2,650,1,8,6,5,6,6,1,3,7,7,7,2,1,6,6,4,4,4,4,4,3,1,5,6,11,1,7,4,6,7,4,7,4,4,4,7,7,5,7,5,3,7,4,4,6,6
+,1,,,,,,,It was a survey testing how much we knew about Global Warming,1,,Mathematics 055,3,770,1,5,7,5,9,9,9,5,5,6,5,6,5,5,5,1,1,5,1,9,5,1,5,4,13,1,7,5,6,6,5,5,5,5,5,5,5,5,5,5,4,6,5,5,4,5
+,,,,,,,,,1,,Math 16A,1,677,1,7,9,5,3,5,2,8,8,7,8,3,1,4,9,6,7,1,5,3,4,1,4,6,5,1,4,6,4,6,4,6,6,5,5,4,5,7,8,5,3,6,3,5,5,6
+,,,,,,,,,2,15,,,,1,5,8,4,3,4,5,5,8,5,8,,3,4,5,7,8,3,,5,5,1,5,4,1,1,3,5,2,5,3,5,8,3,5,5,7,3,5,7,4,5,5,5,5,3
+,,,,,,,,,1,17,Math 53,2,741,1,8,8,7,7,7,1,2,8,9,8,2,2,8,8,4,4,5,2,2,4,1,8,9,8,1,7,3,7,7,3,6,3,6,5,8,6,7,6,5,6,6,5,1,7,7
+,,,,,,,,,1,,Statistics - Math department,1,449,1,9,8,6,4,3,1,4,7,8,9,2,1,5,3,8,8,7,4,1,2,1,5,6,8,1,4,1,3,8,3,7,3,5,3,8,8,3,7,1,5,8,2,1,4,5
+,,,,,,,,,1,,Mathematics 16A,1,800,1,7,7,4,6,6,5,6,7,6,7,3,3,5,6,4,4,5,3,3,3,1,5,3,2,1,7,4,7,7,3,5,4,3,3,7,7,4,7,3,3,7,4,3,7,7
+,,,1,,,,,we need do our effort to reduce global warming,2,1,MTH124,1,756,1,7,9,7,5,6,6,7,5,9,6,2,3,5,6,6,7,6,7,6,6,1,5,6,4,1,7,4,8,9,4,7,4,2,5,7,7,5,7,4,2,7,6,3,7,7
+,,,,,,,,,1,,Math 1B,2,673,1,7,7,3,2,3,3,3,7,6,7,6,2,5,3,7,8,1,7,2,3,1,2,6,7,1,5,5,7,7,4,5,3,5,5,6,6,7,7,6,3,7,4,3,5,6
+,,,,,,,,,1,,Math 53,2,780,1,6,6,5,7,8,8,3,7,6,6,7,5,7,8,1,3,9,2,3,5,1,6,6,14,1,7,4,7,7,5,7,5,5,4,7,7,5,7,5,5,7,6,3,6,6
+,,,,,,,,,1,,Math 16B,2,720,1,3,7,7,9,9,9,3,7,3,5,9,9,6,1,1,1,9,1,9,2,1,5,3,,1,5,6,5,5,4,5,5,3,5,5,6,5,6,5,4,6,4,3,5,5
+,,,,,,,,,1,,PSYCH 101,1,555,1,6,7,7,9,9,6,4,8,7,8,4,2,9,9,1,1,1,1,5,3,1,5,6,9,1,7,4,7,8,3,6,4,3,5,6,7,5,7,1,3,8,3,2,6,6
+,,,,,,,,,2,10,math2,2,681,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,5,5,19,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+,,,,,,,1,I took Cultural Geography at Diablo Valley College,2,4,I took college level algebra at DVC ,1,611,1,4,6,3,7,9,1,5,7,7,6,7,5,7,7,3,3,5,5,2,1,1,5,5,15,1,5,5,5,5,5,5,4,5,5,5,5,5,5,5,5,6,5,5,4,4
+,1,,,,,,,"Greenhouse gases contributes a lot to this issue of global warming. And with rapid development of the whole population, people have generated too much greenhouse gases.",2,8,Mathematics 1A,1,780,1,7,6,5,5,5,4,4,7,6,6,3,3,7,3,5,7,3,5,3,4,1,5,6,3,1,6,3,6,6,5,6,5,5,5,5,6,5,6,5,5,6,5,3,5,6
+,,,,,,,,,1,,statistics 142,1,,1,1,5,5,9,9,9,5,7,5,7,9,5,5,9,1,1,9,1,9,1,1,5,5,19,1,1,7,3,4,7,2,7,7,8,2,3,8,3,7,5,3,7,4,2,2
+,,,,,,,,,1,11,Math 1B,1,705,1,7,7,7,5,5,5,3,7,6,6,1,6,5,3,5,5,1,3,3,1,1,6,5,,1,1,5,3,7,3,3,9,6,6,3,5,3,7,7,4,7,6,3,2,3
+,,,,,,,,,1,,Math 53,,,1,7,9,4,2,2,1,8,9,7,8,2,1,6,3,8,6,1,6,1,2,1,7,5,,1,6,4,5,9,4,6,4,5,6,8,8,8,9,3,3,8,3,2,7,7
+,,,,,,,,,2,,"Calculus, advance mathematics",2,800,1,8,3,1,7,5,3,7,9,7,8,4,3,7,9,7,7,3,2,3,1,1,7,5,5,1,3,6,7,8,6,6,3,3,6,4,7,3,8,6,2,8,2,3,7,8
+,,,,,,,,,2,3,,,,1,5,5,5,5,5,5,5,5,5,6,5,5,5,5,5,5,5,5,5,5,1,5,5,,1,5,5,4,5,5,5,5,6,6,5,5,4,4,5,6,5,4,7,6,5
+,,,,,,,,,1,15,Intro to Statisitics,1,555,1,5,7,6,5,7,5,5,8,8,7,5,3,7,8,3,5,5,5,5,3,1,5,7,,1,5,6,6,6,3,6,3,5,4,7,7,7,7,3,5,7,7,3,5,7
+,,,,,,,,,2,1,MATH 1B,1,800,1,5,5,1,5,5,5,5,9,9,9,5,5,9,5,5,5,5,5,5,1,1,5,7,,1,9,1,9,9,1,9,1,5,5,9,9,1,9,1,1,9,1,1,9,9
+,1,,,,1,,1,"When I took English 5 at Community College, I was instructed to read a book and watch a documentary about Global Warming. I know that Global Warming is happening right now as a result of Green House Gas effect (ozone gas, carbon dioxide, nitrous oxide, etc.). Global Warming is happening since people act carelessly. We commute by cars which cause a lot of green house gases increase over years. Keeling Curve has shown that carbon dioxide has increased tremendously. Thus, we have to do something about it, such as walking to school, recycling bottles, saving energy to reduce the damage of Global warming.",1,6,Calculus II - Math 16B,1,683,1,6,8,7,6,6,6,8,8,8,7,6,7,8,7,5,6,6,6,6,7,1,7,7,49,1,7,6,7,7,6,6,6,5,7,,,6,5,4,7,6,7,6,5,7
+,,,,,,,,,2,8,,,,1,8,7,5,6,3,2,7,7,7,7,2,3,7,5,7,8,5,3,3,5,1,6,6,,1,6,5,6,7,4,4,4,5,7,6,7,5,7,3,6,6,5,3,6,6
+,,,,,,,,,2,1,MATH 1B CALCULUS,1,800,1,5,5,1,5,5,5,9,9,9,9,5,5,9,5,5,5,5,5,5,1,1,5,5,,1,9,1,9,9,1,9,5,1,1,9,9,1,9,1,1,9,9,1,9,9
+,,,,,,,,,1,,second semester calculus at another school,1,701,1,9,9,3,5,5,1,5,9,9,9,1,1,7,5,5,8,1,5,1,1,1,2,9,10,1,7,3,7,6,3,5,3,2,3,6,9,7,7,3,5,9,5,1,2,8
+,,,,,,,,,1,,Math 53,5,750,1,9,8,3,2,5,1,6,9,5,9,1,1,6,5,9,8,1,9,6,3,1,4,6,0,1,3,3,3,7,6,3,5,4,7,5,7,3,7,7,5,6,3,1,3,3
+,,,,,,,,,1,,Stats 2,1,681,1,8,9,5,9,7,3,3,9,9,9,3,1,9,7,3,5,1,1,5,1,1,4,9,40,1,5,6,4,9,1,9,1,1,3,4,9,5,6,1,1,9,1,1,5,9
+,,,,,,,,,1,,Math 54,3,716,1,7,7,6,3,5,3,5,7,6,6,7,5,5,6,7,6,5,7,3,5,1,5,5,10,1,5,3,5,7,5,5,5,5,5,5,7,5,6,5,3,7,4,4,3,6
+,,,,,,,,,1,10,Math 1A,1,643,1,7,6,3,6,7,2,5,6,7,7,3,1,7,6,4,5,5,5,3,3,1,3,5,4,1,4,5,5,7,4,6,7,3,6,3,7,7,7,7,3,7,6,3,4,6
+,,,,,,,,,1,,Math 1B,1,800,1,8,7,7,6,5,2,3,7,7,7,2,4,7,5,5,7,3,5,2,4,1,6,5,1,1,7,3,7,7,3,5,7,3,3,7,7,3,7,3,3,7,3,3,7,6
+,,,,,1,,,Earth planetary science course we learned about global warming,1,,Math 1A,4,600,1,6,7,7,5,5,3,3,8,7,8,3,4,7,5,5,5,2,4,7,3,1,7,7,2,1,7,3,6,7,3,5,3,4,3,6,6,5,7,3,4,7,4,3,6,6
+,,,,,1,,1,Students were handing information and trying to get signatures. I pretty much was aware of everything they were trying to inform me.,1,18,"Calculus, in another college",1,608,1,8,8,4,5,5,2,6,8,9,7,1,1,8,4,6,6,3,5,3,3,1,8,7,10,1,6,3,6,6,4,5,3,4,6,7,6,7,7,6,4,7,6,3,7,7
+,,,,,,,,,1,11,AP Calculus BC (high school),1,720,1,8,8,1,2,1,1,3,7,7,9,1,1,7,1,8,8,1,9,1,4,1,6,6,0,1,6,3,6,6,5,6,5,4,5,6,4,6,7,4,4,6,5,6,5,6
+,,,,,,,,,1,24,math 125 college algebra,1,666,1,8,6,7,1,2,1,5,7,4,8,3,2,8,2,9,9,1,9,2,3,1,6,7,0,1,5,3,5,7,4,5,3,5,5,5,6,7,7,4,3,7,3,4,5,5
+,,,,,,,,,2,10,,,800,1,4,7,3,5,6,3,4,7,7,7,5,4,5,7,4,4,3,4,5,2,1,5,5,3,1,6,5,5,5,5,5,5,5,5,6,5,6,5,6,5,5,5,5,6,5
+,,1,,,,,,hm Glimate has constantly been changing these days and iceherg is melting.. etc,2,4,basic class,2,552,1,8,9,5,4,5,5,7,7,6,9,6,5,8,2,5,7,4,6,3,5,1,5,7,26,1,1,5,6,5,9,1,9,1,9,1,6,3,2,9,6,3,6,6,1,4
+,,,,,,,,,1,5,Calculus,2,,1,7,7,3,3,5,3,5,7,3,6,3,3,6,5,7,7,5,7,2,5,1,7,6,,1,5,4,5,7,3,5,6,7,6,6,8,7,8,7,5,7,4,5,6,5
+,,,,,,,,,1,,Math Analysis ,2,650,1,8,8,6,2,2,1,3,7,8,8,3,1,5,2,8,8,5,8,1,6,1,5,6,0,1,4,3,3,7,3,6,3,5,5,3,6,4,8,4,2,8,3,2,3,4
+1,,,,,,,,I took an honors physics seminar (Physics H190) and this semester it was on the science behind global warming.  It did also branch out into other somewhat related areas.,1,18,Math 185 Intro to Complex Analysis,1,800,1,7,3,8,6,5,3,7,4,6,6,6,2,7,5,4,5,5,4,2,4,1,6,3,1,1,7,4,7,7,2,7,3,4,3,7,7,6,3,3,2,7,4,3,7,7
+,,,,,,,1,"it was regarding forestry, i took ESPM C11",1,,Math 1B,1,750,1,8,7,5,5,5,5,3,9,8,7,3,1,7,5,5,5,,5,1,6,1,5,6,2,1,6,2,6,,1,5,1,6,3,6,7,5,7,3,4,7,4,3,5,3
+1,,,,,,,,an increase CO2 emission and other greenhouse gases that damage ozone area and increase the temperature.,1,7,Math 1B,1,650,1,7,8,3,7,9,5,5,8,8,7,3,3,7,8,1,2,2,4,5,3,1,5,7,19,1,5,5,5,6,4,5,5,5,5,5,6,7,7,5,4,6,5,5,5,5
+,,,,,,,,,1,,Math 1B,3,800,1,9,6,6,4,3,1,4,7,6,8,3,1,7,3,5,6,1,9,1,5,1,3,4,3,1,7,3,7,7,3,6,3,5,7,6,5,7,7,4,5,5,5,3,6,6
+,,,,,,,,,1,,Math 1B,3,800,1,7,7,6,4,3,1,4,6,6,7,3,1,8,3,6,6,1,9,1,5,1,4,3,3,1,6,5,6,7,,7,4,5,7,7,5,7,6,3,5,5,5,3,6,6
+,,,,,,,,,2,,H2 A level Maths,1,486,1,6,7,5,7,6,5,5,7,7,7,6,4,6,6,4,,3,4,6,5,1,6,6,0,1,6,4,7,7,4,5,4,4,4,6,7,4,6,4,4,7,3,3,5,6
+,,,,,,,,,2,,National University of Singapore Math Department MA1505 Math (I),2,,1,6,8,5,5,6,5,3,8,6,7,3,3,6,7,3,5,5,5,4,3,1,5,5,4,1,4,3,4,7,3,6,3,2,3,6,8,5,8,3,2,8,2,3,3,3
+,,,,,,,,,1,15,Math 1B,1,800,1,7,9,6,3,9,1,3,8,6,9,2,2,6,7,4,9,3,9,1,3,1,7,7,10,1,9,7,9,8,3,8,3,4,3,9,9,5,9,2,1,9,5,1,8,8
+,,,,,,,,,1,,Math 16B/Stats 21,2,780,1,7,8,7,8,7,1,2,8,8,8,8,1,8,7,4,2,1,4,3,3,1,5,7,1,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+,,,,,,,,,1,,Math 1B,2,699,1,8,3,7,5,5,2,7,1,3,3,1,1,5,5,5,5,2,5,3,3,1,7,2,9,1,7,2,8,7,3,8,3,2,3,8,5,5,7,3,2,8,3,2,8,7
+,,,,,,,,,1,,Math 1B,1,646,1,6,6,8,9,9,2,3,6,6,7,2,3,5,9,1,1,3,2,3,3,1,3,3,1,1,6,5,5,5,5,5,5,5,5,6,5,5,6,4,4,5,5,3,6,5
+,,,,,,,,,1,11,Math 1B,1,705,1,7,7,3,5,5,5,3,7,7,7,3,7,5,5,5,5,5,3,3,3,1,7,5,,1,1,6,1,7,6,5,7,3,8,3,7,7,7,7,3,7,6,3,3,3
+,,,,,,,,,2,12,Math102,1,800,1,6,7,6,6,7,6,5,6,8,6,4,3,8,7,3,3,3,3,3,3,1,6,8,6,1,8,4,8,8,3,7,8,2,3,7,8,3,8,2,2,8,3,3,8,8
+,,,,,,,,,2,12,,,,1,7,9,3,9,9,3,4,9,9,8,5,1,9,7,2,3,1,1,6,3,1,5,9,,1,9,3,7,9,1,5,2,3,9,9,8,7,7,3,1,9,1,1,7,6
+,,,,,,,,,1,,stat 2,2,651,1,7,6,6,6,5,7,6,5,4,6,4,3,6,3,7,6,3,2,4,7,1,5,3,0,1,6,6,6,6,3,7,7,3,2,6,7,4,4,7,3,6,6,4,4,6
+,,,,,,,,,1,,Statistics (Taken at a community college),2,551,1,8,8,7,5,5,1,3,7,7,6,3,1,8,7,7,9,5,7,1,7,1,5,5,3,1,5,3,5,6,2,5,3,3,4,7,6,5,7,4,3,7,3,2,5,5
+,,,,,,,,,1,9,Statistics,1,702,1,3,9,7,9,9,6,6,9,7,9,9,3,9,9,1,1,8,1,9,7,1,5,8,30,1,3,6,3,7,5,5,3,5,7,2,8,,2,7,2,7,5,4,4,3
+,,,,,,,,,2,10,Math 1A,2,800,1,3,6,7,9,9,9,7,6,3,6,8,4,5,9,1,9,9,1,9,6,1,6,3,7,1,8,2,6,8,2,5,2,2,3,6,7,4,6,2,2,7,6,1,5,7
+,,,,,,,,,1,22,Math 32,5,597,1,6,6,6,7,9,4,5,6,6,6,4,4,7,7,3,5,5,4,5,4,1,4,7,,1,5,4,5,6,3,4,4,5,5,6,6,5,7,7,4,6,4,4,5,6
+,,,,,,,,,2,5,Math 54,2,800,1,4,6,3,5,6,1,5,7,6,7,5,3,6,6,5,7,5,6,3,3,1,6,7,2,1,7,1,7,7,3,5,3,3,3,7,8,3,7,2,3,6,3,3,5,7
+,,,,,,,,,1,,AP Calculus,1,800,1,8,7,6,6,5,3,3,7,6,6,3,1,6,7,5,6,3,4,2,3,1,5,5,2,1,8,2,9,7,3,5,2,5,8,9,7,8,5,3,4,6,4,3,9,6
+,,,,,,,,,1,,Math 53,1,770,1,9,8,5,1,1,1,5,8,7,7,1,1,5,5,9,9,1,9,1,3,1,7,6,100,1,7,5,7,8,3,6,3,3,7,7,7,7,8,2,5,7,2,3,6,6
+,1,,,,,,,Sociology of culture how we as americans affect global warming as compared to other places,1,,AP calc 2 in HS,1,711,1,7,,9,9,9,6,3,7,3,7,3,1,5,7,1,1,8,1,3,8,1,3,3,0,1,,3,8,9,2,7,7,6,8,7,7,7,7,2,4,7,2,7,7,7
+1,1,,,,,,,"The UCB Chemistry 4 series (2 semesters) addressed fossil fuels, biofuels, climate change, etc. with a specific emphasis on green chemistry when in lab.",1,,"Mathematics 53, multivariable calculus",1,750,1,6,8,8,9,9,5,4,8,7,8,3,3,7,9,3,3,3,2,4,2,1,6,7,3,1,8,2,8,7,3,7,1,2,3,8,7,3,6,2,2,8,3,4,8,8
+1,,,,,,,,It's relation to increase of diseases in newer regions of the world,1,,Psych 101,2,666,1,6,7,2,5,6,2,7,7,6,8,2,3,6,8,4,9,1,6,2,2,1,7,6,9,1,6,3,5,6,3,5,6,7,4,6,6,5,6,3,3,6,5,3,6,6
+,,,,,,,,,1,,Calc II,2,639,1,8,6,5,5,5,3,4,7,6,6,1,1,5,6,5,4,4,4,3,3,1,6,5,8,1,6,3,6,6,5,6,4,5,5,6,6,5,5,6,4,6,4,5,5,6
+1,1,,,,,,,"UCB Chemistry 4 series addressed fossil fuels, biofuels, the GreenHouse effect etc. with an emphasis on green chemistry in the lab.",1,,Math 53,1,750,1,6,8,7,9,8,4,3,8,7,7,4,4,7,9,2,4,2,2,4,2,1,6,7,3,1,7,2,7,7,3,6,3,3,5,8,6,7,7,3,2,8,4,3,8,8
+,,,,,1,,1,"It was briefly touched upon in my global poverty and practice, where we discussed some of the policy regarding climate change. It was also covered in my bio1b class, where we learned about the science behind it.",1,,Math 1B,2,720,1,8,8,7,5,5,2,2,8,8,9,1,1,6,7,5,5,5,5,1,3,1,7,6,10,1,6,3,5,7,3,6,5,4,5,6,6,7,7,5,3,7,7,3,7,7
+,,,,,,,,,2,9,math 211,2,720,1,7,7,3,3,5,3,3,8,9,7,4,1,7,5,7,5,1,5,5,2,1,5,3,4,1,5,6,3,7,4,4,7,2,6,7,4,6,6,7,3,6,3,2,3,6
+,,,,,,,,,2,,,,,1,7,5,5,5,5,5,6,7,6,6,4,6,5,5,5,6,5,5,4,3,1,3,5,8,1,5,5,5,6,5,6,5,4,5,6,7,6,7,5,4,7,3,4,6,6
+,,,,,1,,,I took a class on Conservation Biology here at Berkeley. The last unit (approximately three lectures) were on Global Warming and how it can effect conservation efforts/the general conservation of species.,1,,Math 16B,2,676,1,8,7,2,9,7,3,3,7,7,7,2,1,6,7,2,1,2,2,3,3,1,5,6,25,1,6,3,7,7,1,7,3,4,7,6,7,7,7,3,2,7,3,3,6,7
+,,,,,,,1,I have been told about the global effect on the environment and the planet ,1,,math 1b,2,600,1,1,9,9,9,9,3,3,9,3,9,7,9,7,5,1,1,1,1,5,3,1,7,5,0,1,3,3,3,6,3,3,5,4,7,5,3,6,5,5,3,7,4,3,5,4
+,,,,,,,,,1,,Math 54,3,800,1,7,7,8,1,1,1,6,8,5,6,2,1,5,2,9,7,5,2,1,5,1,3,5,3,1,5,3,5,5,5,5,5,5,5,8,8,5,5,5,5,5,5,6,8,5
+,,,,,,,,,1,,math 1b,6,700,1,9,7,6,8,6,1,2,7,7,7,2,1,8,5,5,1,1,5,5,4,1,4,7,12,1,6,4,7,6,4,5,5,5,5,6,5,,5,,5,6,5,5,6,5
+,1,,,,,,,ozone layers,2,3,discrete mathematics,2,770,1,4,5,3,4,3,4,3,5,5,4,4,4,3,3,3,4,4,3,3,4,1,5,4,53,1,4,4,4,4,5,5,3,4,3,4,5,5,4,5,5,5,5,5,5,4
+,1,,,,,,,It was a short description in my CogSci 1 class by a guest lecturer. I also learned it in my L&S C70T class,2,10,Math 55,1,761,1,4,6,1,5,6,3,4,7,7,6,7,2,6,5,7,7,5,6,2,1,1,5,5,,1,7,6,7,8,2,7,2,4,3,7,7,4,7,3,3,7,7,3,7,7
+,,,,,,,,,1,,Math 1B: Calculus (53636),1,800,1,7,7,7,5,6,5,4,6,7,7,3,3,7,5,5,6,5,5,4,6,1,7,7,7,1,6,3,6,7,4,6,4,4,5,6,6,5,7,4,4,7,5,3,7,7
+,1,,,,,,,"Global warming occurs due to the rasied CO2 concentration on Earth due to human industrialization. Being modern humans, our actions daily (driving, cooking, building, etc) have an impact on global warming. On top of that, we destroy natural ecosystems that would counteract with the increasing CO2 levels for human roads, homes, and space. The interaction of destroying our natural ecosystem and maintaining the behavior that generates CO2 pollution is ultimately destructive for everyone.",1,13,Calculus,2,681,1,8,7,6,4,6,3,6,6,4,7,3,3,5,6,6,5,5,6,3,3,1,7,4,0,1,6,4,6,6,4,5,4,4,5,6,7,4,6,3,5,6,5,4,7,6
+,,,,,,,,,1,,No college courses,,720,1,6,6,4,5,5,3,4,5,6,6,3,3,7,6,5,5,3,6,3,3,1,3,3,6,1,4,5,5,7,4,5,6,4,6,5,5,7,6,5,5,5,5,5,4,4
+,,,,,,,1,It was in an earth and planetary science class,1,,Math 1B,1,740,1,7,7,2,6,5,2,4,6,6,7,3,4,8,5,5,7,1,5,3,2,1,5,6,10,1,6,2,7,7,2,5,3,4,5,6,7,7,4,2,4,5,4,2,7,7
+,,,,,,,,,1,,Math 113,3,710,1,9,7,7,3,1,1,5,8,6,7,1,1,6,1,9,7,1,7,1,3,1,6,5,3,1,9,3,9,9,1,7,1,2,3,8,9,5,7,1,1,9,1,1,7,9
+,,,,,,,,,2,18,,,,1,6,7,4,5,3,3,3,7,6,7,2,5,7,5,5,5,3,5,3,5,1,5,6,,1,7,4,6,6,3,5,3,5,5,6,7,7,8,7,3,7,3,5,5,6
+,,,,,,,,,1,,Math 16B,3,650,1,6,6,8,5,8,4,4,8,7,6,3,4,7,8,5,6,3,5,5,3,1,3,5,8,1,8,4,6,6,3,6,4,3,3,7,7,3,7,2,4,7,3,4,5,8
+,,,,,,,,,2,,math 115,1,800,1,5,7,3,7,7,5,7,7,7,5,7,5,7,7,7,7,4,5,6,4,1,,6,76,1,6,7,6,2,5,8,2,4,7,4,6,3,4,7,7,4,4,6,5,5
+,,,,,,,,,2,,MTH 115,6,800,1,5,5,1,7,7,5,5,5,5,6,5,5,5,5,4,5,5,6,5,2,1,8,7,40,1,1,5,3,5,5,5,5,5,5,3,5,5,5,5,5,5,5,5,4,4
+1,1,,1,1,1,,1,"They were covered as courses which I took at my home university (National University of Singapore). The courses were 1) Biodiversity, 2) Evolution, 3) Ethics and the Environment, 4) Ecology and the Environment.",2,,Undergrad.,2,740,1,8,8,3,2,1,1,7,9,8,8,1,1,7,2,9,9,1,8,1,3,1,8,7,2,1,4,3,5,8,2,5,3,3,6,7,7,7,8,3,2,7,3,3,4,7
+,,,1,,,,,I received instruction on the importance of recycling. I also received information on the importance reducing our waste as humans.,1,,Calculus. Math 17A,3,580,1,6,7,6,9,,8,4,7,6,7,6,4,7,6,2,3,7,1,7,3,1,6,6,1,1,3,3,4,6,3,5,5,5,5,4,7,5,4,7,4,6,5,5,3,3
+,,,,,,,,,1,,Psych 101,1,501,1,7,6,5,3,5,3,7,7,5,5,2,1,6,6,6,5,1,5,2,4,1,5,4,50,1,5,5,4,5,5,5,5,6,5,5,4,6,6,5,4,5,5,4,5,5
+,,,,,,,,,1,9,Calculus 1,1,,1,8,6,6,5,1,1,4,6,4,8,1,1,6,3,8,7,1,3,2,5,1,3,3,10,1,4,1,4,7,1,6,3,3,3,4,5,7,8,1,3,8,2,2,6,3
+,,,,,,,,,1,,Math 54,3,680,1,7,6,6,5,7,2,3,8,7,7,3,3,6,6,5,6,2,5,2,2,1,7,6,80,1,8,3,8,8,2,8,3,3,3,7,8,2,9,3,3,7,3,2,5,7
+1,1,,,,,,,Classes and videos to make conscience about the matter,2,14,Calculus,2,591,1,7,9,2,7,7,4,2,8,9,9,4,3,8,6,2,3,3,4,5,2,1,7,9,3,1,5,4,4,7,6,5,6,4,6,4,7,7,7,6,4,7,4,5,3,5
+,1,,,,,,,to try to use cars less to reduce polution and walk or ride a bike.,2,9,AP Physic in high school,1,391,1,5,7,3,7,5,7,7,7,6,8,6,5,8,5,3,3,5,5,7,3,1,5,7,10,1,7,6,5,7,5,5,4,3,3,6,5,6,7,7,5,7,3,3,6,5
+,,,,,,,,,2,15,"None, I'm a visitor student",,,1,7,6,5,6,6,3,6,8,7,7,7,2,7,3,3,3,1,5,3,5,1,6,7,4,1,3,6,4,6,6,5,6,4,5,4,5,6,6,6,5,7,4,5,3,4
+,1,,,,,,,I briefly learned about Global Warming in a Demography class,1,,"Calculus, Math 1A",1,,1,9,9,5,7,5,2,3,8,5,8,1,1,6,6,5,3,1,3,1,1,1,5,5,5,1,7,2,7,8,1,5,2,3,2,7,9,2,5,1,3,8,1,1,8,7
+,,1,,,,,,Set the temperature of air-conditioner lower so as to reduce the green house gas exhaust.  ,2,10,University Calculus ,1,751,1,7,8,7,3,5,5,5,8,8,7,3,2,7,5,5,8,3,6,2,3,1,5,7,2,1,8,2,8,6,3,8,2,4,4,7,8,5,8,2,5,8,4,3,8,8
+1,,,,,,,,Discussed the effects of global warming in my Biology 1B class.,1,,Math 55,3,720,1,5,7,3,5,5,5,4,7,6,7,2,3,6,7,5,5,5,5,4,3,1,5,5,1,1,7,3,7,7,3,7,3,3,5,7,7,7,6,3,3,7,3,3,7,7
+,,,,,,,,,2,17,"Calculus, Math 1B",2,710,1,8,7,7,9,8,5,6,8,8,7,2,3,8,9,1,2,5,2,5,3,1,7,6,3,1,5,3,6,8,2,5,3,5,3,7,4,8,7,2,2,6,3,2,5,7
+,,,,,,,,,2,,,,,1,6,9,5,5,6,1,1,9,4,7,4,1,5,5,5,5,1,5,1,5,1,4,5,10,1,2,6,3,6,4,3,6,3,6,4,6,6,7,6,5,7,3,3,4,4
+,,,,,,,,,1,14,Math 16B,1,650,1,5,7,5,9,8,8,2,7,6,7,6,7,6,7,1,1,9,2,6,3,1,5,7,10,1,5,3,5,6,5,5,5,3,5,6,7,5,5,3,5,6,5,3,5,5
+,,,,,,,,,1,25,stat 50 (general stats) Pasadena City College,2,,1,1,7,5,8,7,1,7,7,8,8,2,1,6,6,7,7,1,1,5,1,1,6,3,,1,4,3,4,7,2,5,2,3,3,7,8,9,8,2,3,9,3,2,7,4
+1,,,,,,,,"in MCB 15, we had a section on climate change in relation to science literacy of the general public",1,,Math 53,1,731,1,8,8,4,7,7,6,1,8,8,9,2,3,8,7,3,3,7,3,4,2,1,7,7,2,1,8,2,8,8,2,7,2,2,3,,6,2,8,3,2,7,3,2,7,7
+,1,,,,,,,"Certain gases from products and chemicals are remaining in the atmosphere and destroying the Ozone layer, causing the earth's temperature to increase.",1,19,Math 54,2,680,1,7,8,8,9,9,5,5,6,6,7,2,2,6,7,1,1,1,2,5,6,1,5,5,3,1,8,5,7,9,2,6,2,5,3,8,8,7,8,2,2,8,2,2,7,6
+,,,,,,,,,1,11,math 53 multivariable calculus,4,780,1,3,6,1,1,2,1,8,5,3,7,5,1,5,2,8,8,1,7,2,1,1,7,3,2,1,5,5,6,7,2,7,1,5,5,5,8,5,9,2,5,7,5,1,5,5
+1,,,,,,,,in MCB 15 we had a unit on Climate Change in relation to science literacy of the general public,1,,MAth 53,1,731,1,7,8,3,7,7,7,3,8,8,8,3,3,7,7,3,3,7,3,3,3,1,7,7,2,1,8,3,8,8,3,7,2,3,3,7,8,3,8,3,3,8,3,2,7,8
+,,,1,,,,,My high school teacher showed us a video called An Inconvenient Truth where Al Gore presented the issue of global warming. We were simply asked to watch the video and discuss our thoughts of it afterwards. ,1,,AP Calculus BC (high school) but Statistics 2 (in college),,632,1,7,8,5,7,6,5,4,8,8,7,3,2,8,7,3,5,5,5,5,3,1,6,7,33,1,6,5,,7,5,5,3,5,4,5,7,5,7,4,5,6,3,5,5,5
+,,,,,,,1,,2,24,,1,,1,6,8,4,6,5,3,3,7,7,5,7,2,4,5,3,3,5,5,3,3,1,5,5,25,1,6,4,6,7,4,5,4,4,5,6,6,7,6,3,5,6,4,4,6,5
+,,,,,,1,,The amount of carbon monoxide present in the atmosphere is exponentially greater today than it was just a few years ago. Global Warming is scientific proven and people need to take action to slow it down. Watched AlGore's presentation video during a lecture.,1,15,Math1A,2,791,1,6,7,8,8,8,3,3,7,6,7,3,3,5,8,2,2,5,3,3,6,1,5,3,0,1,5,3,5,7,3,4,4,5,5,7,5,5,7,4,5,6,4,4,5,4
+,,,,,,,,,1,14,Math 1B,1,760,1,7,7,1,5,5,1,6,8,8,9,3,1,8,6,5,5,5,5,2,1,1,7,8,20,1,7,5,6,5,4,3,4,6,5,6,3,8,5,4,6,4,4,3,6,5
+1,,,,,,,,i was informed by a seminar ,1,24,calculus ,1,673,1,4,6,5,5,5,5,5,5,5,6,5,5,5,5,5,5,5,5,6,5,1,5,6,59,1,5,5,5,4,7,6,5,5,5,6,6,6,5,6,6,5,6,6,5,7
+,,,,,,,,,2,,,,,1,6,8,5,5,6,4,1,7,7,7,3,1,5,5,5,6,2,5,2,5,1,5,5,10,1,4,5,5,9,5,5,6,1,5,4,7,7,8,5,3,7,1,1,4,5
+,,,,,,,,,1,13,Math 55,3,565,1,7,7,3,5,7,3,6,7,7,7,5,5,7,6,5,5,3,5,4,3,1,4,7,4,1,7,4,7,7,3,7,3,4,3,7,7,4,8,3,3,8,3,3,7,7
+,,,,,,,,,2,,N.A.,,399,1,6,6,7,5,5,6,7,8,3,6,7,3,7,5,5,5,8,5,3,,1,6,6,10,1,2,7,3,7,8,4,8,2,6,2,7,6,7,,3,7,3,3,3,4
+,,,,,,,,,2,15,calculus 1,1,780,1,7,8,3,5,6,3,3,7,7,8,3,3,4,5,5,5,5,4,5,5,1,7,7,5,1,6,4,6,6,4,6,5,4,5,6,6,4,6,,4,6,4,4,6,6
+,,,,,,1,,"There were many advertisements and propagandas on ""saving earth"" and trying to instill into us the dangers of Global Warming in Singapore for the last  couple of years. Many people have said that it was caused by almost 7 billion tons of carbon dioxide released into the atmosphere, such as burning of fossil fuels, deforestation and many other industrial works. Researchers have been trying even trying to help mother earth by organizing a ""earth day"" in singapore, which is to set aside a day for an hour to save energy and hopefully reminding us to always save energy whenever or wherever we are.",2,,Additional maths,1,,1,7,7,7,7,7,7,7,7,7,7,5,3,7,4,3,2,8,3,6,5,1,3,6,14,1,7,6,7,7,3,7,3,3,6,7,7,6,6,3,3,7,4,3,7,7
+,,,,,,,,,1,,Math 54,1,800,1,7,7,6,7,5,3,3,7,6,4,3,2,6,5,7,7,3,7,3,2,1,4,5,4,1,6,4,6,4,2,7,2,6,5,6,8,5,7,3,4,8,3,2,4,6
+,,,,,,,,,1,,At community college: Honors statistics (H15),1,,1,8,5,8,7,6,2,6,5,4,4,1,1,6,7,4,7,7,4,1,7,1,2,4,3,1,8,2,8,9,1,7,1,3,2,7,7,7,9,2,2,8,2,1,6,7
+,,,,,,,1,"General awareness regarding how we can do our bit(save eletricity,paper,water) in order to reduce our cardon print.",1,,hish school,2,690,1,6,7,3,7,1,7,3,7,7,9,7,3,7,3,7,6,3,6,3,5,1,,7,3,1,1,6,7,7,3,7,9,5,3,2,9,9,9,1,6,6,6,3,7,6
+1,,,,,,,,I learned about global warming in the ecology portion of an intro biology course. I learned about how greenhouse gases trap heat and energy on the planet and how human activities have contributed to greenhouse gases in the atmosphere.,1,16,Math 53,1,750,1,7,7,7,5,7,5,3,7,6,7,3,3,7,7,5,5,2,5,4,4,1,5,7,5,1,7,4,6,7,4,5,4,5,6,5,5,7,7,4,4,7,5,4,5,6
+1,,,,,,,,"In the astro class the professor talks a little bit about the principles of climate changes. For example, as the sun light reach the earth, it bounces back in the form of infrared. Then the green house gases such as H20, CO2 block a large portion of the rebounded lights, causes the temperature below increases.",2,10,Math 1B,2,720,1,6,6,4,5,6,2,4,7,7,7,2,5,7,6,7,6,5,3,5,4,1,5,5,0,1,6,5,6,7,5,6,4,4,3,6,8,7,7,3,3,7,4,5,7,6
+,,,,,,,,,1,10,Math 16B,1,620,1,6,7,9,9,9,5,3,7,7,7,3,5,7,9,1,1,9,1,5,4,1,7,9,9,1,7,5,5,7,5,5,5,7,5,7,7,7,7,5,5,5,5,5,5,7
+,,,,,,,,,1,,Calculus 1,1,660,1,8,5,7,5,5,3,6,5,7,6,5,1,7,7,7,6,5,5,2,4,1,3,3,16,1,6,6,6,2,2,6,5,4,5,5,8,5,7,4,2,7,5,3,4,8
+,,,,,,,,,2,22,MTH115,1,600,1,8,7,4,3,5,1,5,8,9,9,1,1,8,6,6,9,1,7,1,2,1,7,7,,1,8,1,7,9,2,7,2,2,1,8,8,3,9,1,1,9,2,1,8,5
+,,,,,,,,,1,,Calculus and Stats,2,701,1,7,7,7,7,7,3,5,7,5,5,3,4,5,7,3,7,5,4,3,5,1,5,5,,1,6,3,6,7,3,6,4,4,3,6,7,4,7,4,4,6,4,3,6,6
+,,,,,,,1,energy saving  / grow more trees  / use less plastic,2,15,highschool level,4,351,1,6,6,7,6,7,3,7,6,7,5,5,4,8,6,4,6,3,6,3,4,1,5,7,5,1,3,8,3,6,7,3,8,7,9,2,6,7,5,6,5,4,7,7,3,2
+,,,,,,,,,1,,Math 16B,1,721,1,7,8,5,5,5,5,2,9,5,8,3,1,6,6,4,3,5,5,2,3,1,5,5,5,1,5,3,5,6,5,5,4,3,5,7,6,6,5,4,3,6,5,5,6,6
+,,,,,,,,,2,10,Math 1B,2,720,1,6,7,4,7,6,3,3,7,7,7,4,5,7,6,7,7,3,3,4,4,1,5,5,,1,6,4,6,6,4,6,4,4,6,6,7,5,7,4,4,7,4,3,6,6
+,,,,,,,,,1,20,Math 16B,1,748,1,1,7,6,9,9,3,2,7,6,8,8,7,7,9,1,1,9,1,9,3,1,4,4,8,1,6,5,6,7,6,4,6,4,7,7,7,6,7,6,4,6,4,5,4,6
+,,,,,,,1,I was in the class Environmental Science 10,1,20,Math 1B,4,551,1,5,7,2,7,7,5,3,7,7,8,5,5,7,7,3,3,1,5,5,2,1,6,6,5,1,3,6,5,7,7,5,6,7,8,3,3,8,7,6,6,3,5,4,6,5
+,1,,,,,,,I mostly learned about the MDGs and international environmental policy.,1,,,,,1,6,8,4,5,5,3,4,7,7,7,3,3,6,5,5,5,5,5,3,2,1,5,6,4,1,6,6,6,7,4,7,4,6,7,6,6,7,7,3,3,7,4,3,5,6
+,,,,,,,,,1,,Math 16A,3,525,1,4,9,8,7,9,3,4,8,8,8,6,6,7,9,1,3,7,2,8,3,1,5,7,10,1,5,6,6,7,6,5,6,4,6,4,7,7,7,6,6,7,4,3,4,4
+,,,,,,,,,2,14,Math 53,2,800,1,2,7,7,9,9,9,4,8,5,7,7,4,3,9,1,1,9,1,9,3,1,7,6,6,1,9,2,8,8,2,8,2,1,2,9,9,2,8,2,1,8,1,1,9,8
+,,,,,,,,,1,,Statistics,1,,1,9,9,5,7,9,1,4,9,8,9,1,1,9,6,5,5,4,2,1,1,1,7,9,10,1,7,3,6,6,4,6,4,5,3,7,6,7,7,2,3,7,6,5,6,5
+,,,,,,,,,1,,Math 1A,2,800,1,8,7,7,8,6,2,3,7,7,7,2,1,7,5,7,2,3,5,1,4,1,7,5,9,1,4,7,3,6,6,4,3,4,9,5,6,7,7,6,5,4,5,4,3,4
+,,,,,,,,,1,,Math 53,1,800,1,8,9,3,4,5,2,3,9,8,8,3,3,7,5,5,6,5,5,3,3,1,6,6,1,1,6,6,7,7,3,7,3,7,7,7,7,7,7,3,5,7,5,5,6,7
+,,,,,,,,,1,20,Math 16A,3,549,1,5,7,7,5,6,4,6,6,5,7,5,5,7,6,5,6,5,5,5,5,1,3,5,2,1,5,5,5,7,4,6,5,4,6,6,6,7,7,5,5,6,5,4,5,5
+,,,,,,,,,1,30,Statistics,2,620,1,6,8,2,9,9,3,3,9,8,9,7,5,7,9,1,1,3,1,5,1,1,7,8,2,1,4,6,3,6,4,5,7,3,7,4,7,7,6,6,3,7,5,2,5,3
+,,,,,,,,,1,5,Math54,1,,1,8,8,7,6,6,3,2,8,8,8,3,2,7,7,4,7,6,6,2,7,1,6,5,5,1,7,6,7,6,3,6,4,3,7,7,6,3,6,4,7,7,6,3,6,7
+,,,,,,,,,1,,121b,2,800,1,8,6,3,4,3,1,5,7,5,6,5,3,5,3,8,7,5,4,1,3,1,2,2,7,1,7,2,7,7,2,6,2,3,3,7,8,7,8,3,3,7,3,1,7,7
+,,,,,,,,,2,10,,,800,1,5,7,3,6,7,4,3,7,7,7,5,4,7,6,4,5,5,5,5,3,1,5,7,3,1,5,5,6,5,4,5,4,6,5,5,5,5,5,4,4,7,5,4,6,7
+,,,,,,,,,1,,"Mathematics major (teach concentration) - finished with upper division coursework Math 104, 110, 113, 128a, 151, 152, 153, 160 (did not take SAT)",2,,1,7,7,6,4,5,2,5,7,7,8,2,2,6,5,7,7,5,7,2,2,1,5,6,8,1,8,3,8,7,3,6,3,4,3,7,7,5,7,3,4,8,4,3,7,7
+,1,,,,,,,,1,,Psych 101,1,540,1,7,8,7,7,7,1,5,7,6,8,2,1,7,7,4,7,1,2,2,1,1,6,6,0,1,5,2,5,3,7,5,,3,5,6,6,7,6,3,6,7,5,3,6,5
+,,,,,,,,,1,,Math 16b,2,590,1,9,4,6,6,7,1,7,5,4,7,2,1,6,7,3,6,1,4,1,5,1,2,2,3,1,7,3,5,7,3,4,3,4,7,7,7,7,8,4,4,7,4,2,5,4
+,,,,,,,,,1,16,Math 53,2,731,1,6,7,5,5,5,3,4,6,7,8,3,2,8,5,5,5,5,5,1,2,1,5,6,,1,8,3,7,6,2,5,3,3,3,8,5,7,7,3,2,7,2,2,5,5
+,,,,,,,,,2,14,12th grade (ISC level- Indian School Certificate examination board),3,570,1,6,7,5,7,5,4,6,7,5,6,5,3,7,7,4,5,1,4,5,5,1,5,4,10,1,6,3,3,7,3,4,3,5,5,5,7,7,6,3,7,6,5,5,6,3
+,,1,,,,,,global warming caused due to various factors like deforestation urbanization etc is causing a dramatic chage in the weather conditions all over the world. the ozone layer is depleting causing greenhouse effects as also ice is melting rapidly at the poles creating more and more alarming effects on the climate.,2,18,12th std,3,,1,7,8,5,5,5,5,3,7,8,7,3,3,7,7,5,5,3,6,4,5,1,8,6,3,1,3,4,3,4,4,3,4,4,6,7,7,6,6,6,4,5,5,3,3,3
+,,,,,,,,,2,14,,,,1,7,9,6,8,9,6,1,9,8,9,9,2,9,9,1,1,2,1,5,2,1,5,9,20,1,4,8,4,9,1,7,3,1,4,7,9,7,9,3,3,9,1,4,5,3
+,,,,,,,,,1,,Calculus (in high school) Stats II in high school,1,570,1,7,8,1,3,5,1,1,8,7,8,1,1,4,4,8,5,1,9,1,1,1,5,5,5,1,2,7,1,6,7,5,7,7,7,2,5,7,7,7,5,5,5,4,1,1
+,,,,,,,,,2,10,calculus,1,800,1,5,7,5,5,4,5,5,7,4,5,5,4,7,4,5,5,4,4,4,3,1,4,5,31,1,6,6,6,5,7,5,5,6,7,6,6,5,8,6,5,7,5,7,5,4
+,,,,,,,,,1,,Math 1B,1,800,1,6,5,5,5,5,5,5,5,6,6,4,4,5,5,5,5,4,6,5,4,1,6,6,3,1,5,4,6,6,4,7,4,4,5,6,6,5,6,5,5,5,5,4,7,6
+,,,,,,,,,1,,Math 54,1,800,1,9,6,9,1,1,1,7,7,2,5,1,1,2,1,9,9,3,9,1,2,1,4,1,0,1,8,3,9,6,2,9,2,2,3,8,7,1,9,1,4,7,4,2,8,6
+,,,,,,,,,2,,Level 10,3,,1,5,8,5,7,9,8,7,9,9,8,6,6,8,8,1,1,1,5,7,6,1,8,7,,1,3,4,5,6,5,6,7,1,7,3,9,6,9,8,2,9,2,1,5,5
+,1,,,,,,,"Consequences of overuse of fossil fuels, etc",2,19,,,,1,6,7,7,4,6,1,6,7,6,8,2,2,7,6,7,7,1,4,5,3,1,7,6,5,1,6,8,3,4,3,3,6,7,8,6,6,6,6,8,6,6,8,3,4,4
+,,,,,,,,,2,,,,,1,6,8,8,7,5,5,7,8,9,8,4,5,7,6,4,5,5,6,5,5,1,5,7,0,1,5,5,3,8,3,5,5,4,7,5,7,8,7,8,3,8,2,2,4,5
+,,,,,,,,,1,14,Math 1B,1,760,1,8,7,1,5,5,1,6,8,7,8,3,1,8,6,5,5,5,5,1,1,1,6,8,20,1,7,4,6,6,3,4,3,5,5,7,2,8,7,3,5,3,5,3,6,6
+,,,,,,,,,1,15,Mathematics 1B,1,720,1,1,8,2,9,9,9,4,6,6,6,9,5,1,9,1,1,9,1,9,1,1,2,3,100,1,8,1,5,9,6,3,,2,4,9,6,1,4,6,2,6,1,1,5,9
+,,,,,,,,,1,,Math 54,1,653,1,6,7,2,6,3,1,3,7,5,7,3,2,7,4,5,3,2,5,1,3,1,7,6,,1,6,3,7,6,3,6,3,5,5,7,7,7,7,3,3,6,4,3,6,4
+,,,,,,,,,2,4,math54,1,,1,8,7,8,4,5,6,3,7,5,9,5,3,6,5,5,8,4,7,6,8,1,2,5,8,1,6,5,5,4,4,5,5,4,5,5,6,5,7,6,5,6,5,6,5,4
+,,,,,,,,,2,2,,2,672,1,7,7,6,3,5,3,6,7,8,8,3,5,8,3,8,8,5,7,5,4,1,7,7,1,1,6,4,5,7,3,7,3,3,7,6,6,4,7,3,3,7,3,3,7,6
+,1,,,,,,,UGBA 10: 1 Lecture,1,,Math 16B,1,800,1,8,8,7,5,5,5,4,7,3,9,6,1,2,5,5,5,5,5,1,1,1,3,1,,1,1,9,1,9,9,3,9,6,9,1,4,9,7,9,4,4,3,1,1,1
+,,,,,,,,,1,,,,630,1,7,7,5,9,9,3,4,7,4,7,3,3,6,7,1,1,9,1,1,3,1,3,5,51,1,6,6,4,5,3,5,4,3,6,6,5,6,7,6,3,9,3,3,4,4
+,,,,,,,,,1,,Math 1B,3,780,1,6,5,7,9,9,9,7,7,7,8,4,3,7,9,1,1,9,1,9,1,1,5,7,10,1,7,5,3,7,3,6,6,7,8,6,7,7,8,6,3,7,4,3,4,6
+,,,,1,,,,A meeting hold in Copenhagen emphasized the phenomenon. / ,2,8,MATH 1510,2,400,1,4,6,3,6,4,1,3,6,5,7,6,1,6,4,6,5,1,5,1,3,1,2,7,4,1,6,3,7,8,4,5,3,4,3,5,7,3,8,3,3,8,3,4,6,3
+,,,,,,,,,1,,calculus,1,,1,3,8,1,1,1,1,1,7,7,6,4,7,9,1,7,7,1,1,1,5,1,6,6,0,1,4,,5,4,5,4,4,5,5,5,5,,5,3,3,3,,5,5,4
+,,,,,,,,,1,14,"Analytic Geometry and Calculus, Math Department CCN#53753",2,701,1,6,8,4,5,5,4,5,4,6,6,4,2,5,7,3,5,5,4,4,2,1,5,4,3,1,7,2,7,7,3,5,5,2,4,7,6,6,6,4,3,7,3,2,,4
+,,,,,,,,,2,21,Calc 3 in High School,2,676,1,6,7,8,9,9,5,7,7,8,7,5,8,9,1,1,1,9,1,9,6,1,6,8,0,1,8,2,8,7,2,7,2,7,3,8,8,3,8,3,2,8,6,2,6,6
+,,,,,,,,,1,20,Math 1B,2,690,1,8,8,7,5,5,2,3,8,7,7,3,3,6,6,7,5,2,5,1,1,1,5,5,6,1,5,5,8,8,3,6,7,3,5,7,7,7,9,2,2,7,2,2,7,7
+,,,,,,,,,1,19,math 16b,3,476,1,8,6,4,4,5,2,4,6,6,5,2,3,6,7,5,6,2,5,3,4,1,3,6,2,1,6,5,6,6,3,5,3,3,3,6,7,4,7,4,3,7,3,3,5,5
+,,,,,,,,,2,22,international student/ computational and statistics in Nanyang Technological University,2,651,1,7,7,4,5,5,4,6,7,8,6,5,5,5,4,5,6,5,5,4,5,1,4,5,5,1,5,5,7,6,4,3,5,5,6,6,6,6,6,5,3,7,6,4,4,6
+,,,,,,,,,1,,,,605,1,8,3,8,5,5,2,7,4,3,6,3,1,7,5,3,6,1,4,1,6,1,7,3,1,1,7,6,4,6,4,4,4,8,7,7,3,8,6,3,7,7,6,5,2,3
+,,,,,,,,,1,,Calculus (high school),1,800,1,8,8,1,3,3,1,4,8,5,9,3,1,6,6,9,9,1,9,1,1,1,2,2,0,1,6,3,7,7,3,5,3,4,7,7,7,7,5,3,3,6,3,3,7,6
+1,,,,,,,,I did not actually receive any instruction regarding Global Warming.,2,,Additional Mathematics,2,650,1,1,8,5,9,9,9,9,8,9,9,9,7,9,9,1,1,9,1,9,2,1,5,7,3,1,5,5,7,6,5,6,5,5,5,6,6,5,6,5,4,7,2,2,5,6
+,,,,,,,,,2,,Engineering Statistics and Probability ,1,,1,9,8,5,6,3,1,2,8,4,8,3,1,6,4,7,8,3,8,2,3,1,7,5,0,1,6,3,6,7,4,7,3,3,5,7,7,3,6,4,3,7,3,2,7,6
+,,,,,,,,,1,,MATH 164       Intro to Statistics,2,656,1,9,9,7,1,1,1,1,9,8,9,1,1,5,1,9,9,1,9,1,5,1,6,7,,1,4,4,5,5,5,5,6,6,8,2,7,8,8,6,6,6,5,6,2,3
+,,,,,,,,,2,,GCE A Level,2,500,1,7,8,6,7,6,5,4,8,7,7,5,3,7,5,5,4,5,5,5,3,1,6,6,3,1,6,6,6,7,5,,6,4,5,5,7,6,7,4,5,7,3,3,4,6
+,,,,,,,1,Economic focus on climate change.,1,,IB Math,2,651,1,8,7,5,1,2,1,3,9,7,7,2,1,6,3,9,9,1,8,1,3,1,7,7,5,1,3,5,3,6,4,3,6,6,8,2,6,9,6,6,4,7,4,3,4,3
+,,,,,,,,,1,9,Math 54,2,800,1,5,6,5,9,9,8,5,5,4,6,1,1,6,9,1,1,9,1,5,5,1,6,6,2,1,8,1,6,9,1,5,1,1,5,7,7,7,9,4,5,9,1,1,8,8
+,,,,,,,,,1,,SUNY BUFFALO MTH 121,2,650,1,7,6,3,5,5,3,6,7,6,7,3,2,7,5,5,5,5,5,3,3,1,5,7,5,1,6,3,5,7,2,6,4,5,5,6,7,7,8,5,5,8,2,2,3,4
+,,,,,,,1,Geography class I took at community college. ,1,,16b,1,,1,6,7,6,7,7,6,6,7,6,6,4,3,7,7,3,4,7,3,5,6,1,5,5,3,1,6,6,6,6,4,6,4,4,4,6,6,6,7,4,4,6,4,4,6,7
+,,,,,,,,,2,18,Engineering 7,2,750,1,8,8,6,6,5,4,3,8,6,7,4,3,7,6,5,6,6,5,1,2,1,5,7,50,1,5,4,7,8,1,7,7,4,3,6,8,6,9,7,2,9,2,3,5,7
+,,,,,,,,,1,,Psych 101 Research Methods,2,645,1,6,6,6,7,8,6,6,5,5,6,4,2,7,7,3,4,5,3,5,2,1,4,6,20,1,3,4,3,6,6,4,6,4,8,3,7,7,6,7,6,6,6,5,3,2
+,,,,,,,,,1,14,Math 16B,1,581,1,7,7,7,7,7,5,6,7,7,6,2,2,7,7,2,2,6,5,5,4,1,5,6,10,1,7,4,7,7,3,6,4,3,4,7,6,6,7,4,4,7,5,7,7,7
+1,,,1,,,,,"Physical science course including evolution of the planet Earth, and atmospheric geochemistry",1,,Math 53/54,3,709,1,8,8,6,1,1,1,7,6,7,7,1,1,9,8,7,9,1,3,1,1,1,7,7,2,1,6,3,6,9,3,6,4,2,1,6,8,2,9,3,3,7,3,1,6,7
+,,,,,,,,,2,15,High School ,2,,1,6,8,5,8,8,6,6,7,7,8,6,7,7,7,1,1,2,6,7,5,1,5,7,5,1,7,4,7,7,3,6,3,5,5,7,6,7,7,2,5,8,3,3,7,5
+,,,,,,,,,2,,,,,1,7,7,3,6,6,4,6,9,7,8,6,3,7,5,5,4,5,5,3,3,1,5,5,50,1,4,5,5,6,5,4,6,4,5,5,6,6,6,6,4,6,4,3,5,4
+,,,,,,,,,2,,A Levels (Did not take SAT),1,,1,4,7,5,9,9,5,3,8,7,7,4,3,7,8,1,1,9,1,8,3,1,5,6,5,1,6,4,6,6,4,5,4,3,5,6,6,5,7,6,5,7,4,3,4,6
+,,,,,,,,,1,15,Math 16A- Calculus,2,654,1,5,7,3,8,7,7,3,8,7,8,6,3,5,7,1,2,7,2,7,2,1,3,4,57,1,6,3,6,7,3,6,3,3,3,6,6,3,7,3,2,6,3,3,6,6
+,,,,,,,,,1,,Calculus,1,800,1,7,6,5,6,5,3,4,6,6,6,3,1,6,6,5,6,5,6,3,4,1,5,5,3,1,8,2,7,7,3,6,3,4,5,8,6,7,5,2,4,6,4,3,8,6
+,,,,1,,,,A meeting was held for global warming.,2,10,MATH1510,2,510,1,7,6,3,9,5,3,3,6,5,6,4,1,6,5,6,5,3,5,3,3,1,2,7,4,1,7,3,6,7,3,7,3,3,3,7,7,2,7,3,3,7,3,3,7,3
+,,,,,,,,,1,12,Math 54,2,754,1,7,7,3,5,5,3,3,7,3,7,1,2,7,5,5,8,5,6,3,3,1,2,5,5,1,5,3,7,7,3,7,3,7,5,7,3,7,7,3,3,7,3,3,7,5
+,,,,,,,,,2,12,Further Math,2,800,1,6,7,7,5,2,5,3,8,7,6,3,1,7,7,5,5,2,5,5,2,1,6,6,3,1,5,5,7,6,2,6,4,2,7,7,8,8,8,3,4,8,5,4,8,8
+,,,,,,,,,1,,Math 124 - Trigonometry,1,,1,6,7,7,9,9,7,3,7,6,7,3,3,3,9,1,1,8,1,5,3,1,5,5,15,1,6,6,6,7,5,5,4,4,6,5,6,7,7,3,3,7,3,3,4,5
+,,,,,,,,,2,11,Engineering Mathematics,1,,1,4,7,6,6,5,3,6,6,6,6,6,4,4,5,5,4,3,7,4,2,1,6,3,2,1,4,6,4,6,5,5,4,4,6,4,6,,6,4,4,7,3,4,4,3
+,,,,,,,,,2,8,Math 110,1,800,1,4,6,7,5,5,3,2,6,5,6,2,1,8,7,5,5,5,5,5,1,1,6,7,5,1,6,4,5,8,3,7,3,3,3,7,6,3,6,5,3,5,3,3,7,7
+,,,,,1,,,"It was chemistry based, dont remember much. ",1,,Math 16B,1,645,1,9,7,6,4,5,2,3,8,6,6,2,2,8,6,5,7,5,5,1,3,1,3,7,,1,7,3,5,9,1,5,3,6,3,8,8,6,3,3,2,9,2,3,3,8
+,,,,,,,,,1,,Stats,1,647,1,8,8,4,5,5,1,3,8,9,9,4,1,8,5,5,5,3,5,1,2,1,6,8,1,1,4,6,4,7,4,5,6,2,7,7,5,6,6,6,3,8,4,2,4,6
+,,,,,,,,,1,,Math 16a,2,620,1,7,8,6,7,7,3,2,7,7,8,1,1,7,7,4,5,4,5,6,8,1,6,7,70,1,4,7,4,7,6,5,4,4,7,4,6,7,4,4,4,6,6,4,3,3
+,,,,,,,,,2,14,,,711,1,7,6,2,3,4,2,6,6,6,7,3,1,6,1,7,7,1,9,9,2,1,6,6,,1,7,2,7,7,2,7,2,2,2,7,,2,7,2,2,6,2,2,7,7
+,1,,,,,,,pamphlet distributed during class,1,,NA,1,750,1,,9,9,9,9,9,8,9,7,9,9,1,,9,1,1,9,1,9,6,1,7,9,,1,4,3,5,9,6,7,5,1,6,6,9,5,9,2,2,6,2,1,5,7
+,,,,,,,,,1,10,CS 188 Artificial Intelligence,1,800,1,7,9,1,5,5,5,1,9,7,9,3,1,6,5,5,9,5,5,1,1,1,7,7,2,1,6,1,6,9,1,9,1,2,2,6,8,5,9,1,1,9,4,1,7,6
+,,,,,,,,,2,4,Math 53       MATH Department,1,800,1,6,7,6,6,5,5,4,7,7,7,6,3,5,6,4,5,5,5,4,4,1,6,3,1,1,7,3,7,7,8,5,3,2,3,7,7,3,7,3,3,7,3,3,6,7
+,,,,,,,,,2,14,math 53,2,800,1,6,7,8,9,9,9,4,6,5,5,8,5,6,9,1,1,9,1,8,4,1,6,4,6,1,9,2,8,8,2,8,2,2,2,9,8,3,9,2,2,9,2,1,9,9
+,,,,,,,,,1,,Psych 101 (Stats),2,541,1,9,9,8,1,1,1,5,9,9,9,1,1,9,1,9,9,1,9,1,8,1,9,9,2,1,6,5,5,7,4,7,5,5,5,6,7,5,6,4,5,6,5,4,6,5
+,,,,,1,,,ESPM 50AC,1,,Math 1B,2,701,1,7,7,7,1,3,1,6,6,6,6,4,4,6,5,8,7,2,9,1,3,1,4,5,4,1,5,4,5,6,3,6,4,5,5,6,6,5,7,4,5,6,5,5,4,5
+,,,1,,,,,Took an oceanography class and learned about the effects of climate change on water and air currents (general weather system),1,,Math 121A,6,784,1,9,6,5,2,2,1,3,6,6,6,1,1,5,5,7,3,1,8,1,3,1,3,1,3,1,7,4,7,5,3,6,4,5,5,6,6,7,5,4,2,6,3,2,8,4
+,,,,,,,1,The instruction was in my Global Poverty class. ,1,,Stats,1,,1,2,7,3,9,9,2,2,7,2,7,8,7,8,8,1,1,8,9,2,2,1,5,7,50,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+,,,,,,,,,1,,Math 16B,4,549,1,5,6,5,7,7,5,5,7,7,6,5,5,5,7,2,3,5,5,5,3,1,5,5,0,1,3,7,5,5,5,5,5,5,,5,5,5,5,5,5,5,5,5,5,5
+,,,,,,,,,2,,GCE A Level,2,530,1,5,6,7,6,6,4,4,8,7,8,6,4,7,6,4,5,5,5,5,4,1,7,7,3,1,5,6,4,6,5,6,6,4,6,6,7,5,7,4,6,7,5,5,4,6
+,,,,,,,1,"We don't call it Global Warming anymore, but call it unusual weather since the environmental change is not only the increse of temperature but also other large natural disasters. ",2,4,College level algebra MATH 860 in SF city college,1,632,1,7,6,3,4,5,2,7,7,7,7,5,5,6,5,8,7,5,5,2,3,1,6,6,10,1,4,4,7,6,3,5,5,3,4,3,6,7,7,3,4,7,5,3,4,4
+,,1,,,,,,"the different climates around the globe are changing due to decreased ozone layer thus increased UV radiation being absorbed by the Earth's atmosphere. Due to green house effect, greatly influenced by water and carbon dioxide, more heat is kept inside the atmosphere. With all of this climate change occurs",1,10,Math 1B,2,635,1,1,3,5,9,9,8,7,3,2,6,9,1,7,9,1,1,5,1,9,3,1,5,2,5,1,5,5,5,8,3,5,5,3,6,5,7,6,7,5,4,7,3,5,3,4
+,,,,,,,,,1,6,math 54,1,800,1,5,5,5,5,5,5,5,5,7,6,5,5,5,5,5,7,1,5,5,5,1,4,7,0,1,7,5,5,7,5,6,5,6,5,8,5,4,6,3,5,5,5,5,,5
+,,,,,,,,,1,10,Math 1B,2,650,1,7,6,6,6,7,6,6,6,6,7,7,6,6,7,6,6,6,7,6,6,1,6,5,,1,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+,,,,,,,,,1,,"Statistics, not at UC Berkeley",1,703,1,7,5,4,6,6,2,6,7,6,8,4,3,6,7,3,4,3,4,5,2,1,5,3,5,1,6,3,7,8,3,6,3,4,4,7,6,6,6,3,3,8,4,3,7,8
+,,,,,,,,,2,20,High School Mathematics ,4,,1,8,9,3,5,3,3,3,9,7,9,3,1,8,3,9,9,5,6,8,1,1,5,9,6,1,5,5,5,5,5,5,3,7,5,5,5,4,7,4,5,7,5,5,5,6
+,,,,,,,,,2,15,,,,1,7,7,6,5,5,4,7,8,8,7,3,5,6,5,5,5,5,5,3,4,1,6,5,0,1,6,4,5,7,4,5,3,3,4,5,7,6,7,3,3,7,3,3,5,5
+,,,,,,,,,2,,Elementary Mathematics ,2,,1,1,9,5,5,1,9,5,7,6,9,9,1,9,5,1,1,9,2,6,6,1,3,5,,1,9,1,1,6,5,5,1,9,6,5,9,5,3,1,1,9,5,1,5,1
+,,,,,,,,,1,,None,5,770,1,7,8,4,6,4,4,4,9,8,7,4,3,6,6,6,6,3,6,3,3,1,7,6,6,1,6,6,4,8,4,4,6,4,4,8,6,7,6,6,4,4,4,,4,8
+,,,,,,,,,1,14,Math 54,1,800,1,9,6,7,2,2,1,5,7,8,9,,1,9,3,8,8,5,8,1,2,1,5,1,5,1,9,7,3,7,2,9,1,3,5,6,8,9,9,4,3,8,1,9,1,3
+,,,,,,,,,1,,Math 16B,3,701,1,7,8,3,3,5,1,4,7,6,7,2,3,7,5,8,6,2,7,2,3,1,6,6,20,1,7,4,6,7,3,6,3,5,5,7,6,7,6,4,4,6,4,3,6,6
+1,,,,,,,,I was going a social experiement at the xlab in Berkeley ,1,18,Calculus in High School ,1,669,1,9,9,9,9,9,2,7,9,3,9,3,3,7,7,1,3,1,4,5,4,1,3,5,3,1,5,7,3,5,3,5,3,5,4,6,6,3,5,6,2,6,3,3,5,7
+,,,,,,,,,2,,Math 16A,1,735,1,7,7,5,5,6,1,6,5,6,7,4,2,7,7,5,8,1,6,1,2,1,7,7,4,1,9,2,8,8,2,6,2,2,2,7,7,2,7,1,2,8,2,2,8,7
+,,,,,,,1,the situation we are facing is becoming more and more serious.,2,10,math 251 (psu) differential equation and boundary stituation,1,800,1,7,7,9,6,5,3,7,8,4,6,6,2,7,8,4,4,1,3,1,2,1,6,3,,1,6,3,7,9,1,7,5,3,6,8,9,3,7,6,3,9,3,2,5,8
+,,,,,1,,,I was taking an enviromental science class that taught me how our enviroment and the earth is being effected by global warming.,1,10,math 16a,1,452,1,7,9,5,9,9,5,5,9,9,7,3,5,9,5,1,1,9,3,5,5,1,5,7,6,1,7,3,5,9,9,7,4,7,5,6,9,4,8,5,3,9,5,6,5,7
+,,,,,,,,,1,8,Math 1B,1,780,1,5,8,9,9,9,7,5,7,4,7,5,7,7,9,1,1,7,1,5,4,1,7,5,,1,7,2,5,9,2,8,3,1,3,7,8,3,9,1,2,9,2,4,5,5
+,,,,,,,,,1,,Math 16B,1,680,1,5,7,5,5,7,5,6,9,9,7,5,5,7,7,5,5,5,2,7,5,1,4,7,7,1,2,7,5,5,7,5,7,5,6,3,7,7,5,7,5,6,5,5,3,5
+,,,,,,,,,1,,math 16A,2,,1,9,5,2,1,1,1,3,6,7,9,1,1,6,1,9,7,1,9,1,1,1,4,6,5,1,7,2,5,8,2,5,2,5,3,8,8,5,5,3,2,9,3,3,7,8
+,,,,,,,,,2,14,A level maths,1,200,1,7,4,5,8,9,1,7,5,6,7,5,2,9,7,5,4,5,7,3,5,1,3,6,6,1,7,4,7,7,3,6,3,4,,7,7,4,7,2,2,7,2,2,6,6
+,,,,,,,,,1,,SUNY Buffalo MTH 121,2,650,1,5,6,3,5,5,5,4,8,7,7,3,2,7,5,5,5,5,5,3,2,1,5,6,5,1,5,3,7,7,3,5,3,5,5,5,6,5,8,3,3,7,3,1,3,4
+,1,,,,,,,Political Science 5,1,11,Math 16B,2,650,1,2,7,5,8,8,7,5,8,7,7,5,5,7,5,1,1,9,3,5,3,1,6,5,,1,1,6,1,3,7,5,7,6,7,1,5,7,1,7,5,3,7,7,1,1
+,,,,,,,,,1,16,Math 16A,1,789,1,2,7,4,9,9,9,3,8,6,8,8,7,7,6,1,1,9,1,9,3,1,2,3,3,1,6,5,7,6,4,6,6,4,7,6,6,7,4,5,4,6,4,4,6,6
+,,,,,,,,,2,16,Indian Standard CBSE 12th Math,1,,1,6,8,2,6,5,,1,8,9,9,3,2,7,5,4,3,2,3,3,3,1,7,7,2,1,4,4,3,6,6,4,3,5,7,6,7,5,5,3,4,6,3,4,5,6
+,,,,,1,,,EPS 8,1,,Calculus 16A,2,590,1,8,7,7,6,5,3,7,7,6,7,2,1,7,6,4,6,3,4,1,3,1,5,7,7,1,5,4,6,7,3,4,4,5,5,5,6,6,6,3,3,6,4,3,5,6
+,,,,,,,,,1,,Math 16 B,2,654,1,8,8,2,8,8,2,3,9,8,8,3,1,8,8,1,4,2,2,1,2,1,8,7,68,1,5,4,5,6,6,3,6,2,6,4,7,6,8,5,6,8,2,2,6,6
+,1,,1,,,,,I learned about contributing factors to Climate Change in a geography class and an Anthropology class. I learned about green house gasses and how that contributes to Global Warming. ,1,,Math 8A- Brief Calculus 1,1,650,1,6,7,5,8,8,3,6,8,7,9,5,3,6,8,2,2,8,2,9,5,1,5,7,70,1,7,6,7,7,3,5,3,4,5,7,7,7,7,3,3,7,5,2,6,7
+1,,,,,,,,"The documentary ""HOME"" / And i did an experiment regarding ""enviromental education""",2,10,highscool,4,,1,7,7,7,1,1,1,4,7,6,9,3,3,7,1,9,9,1,9,3,1,1,6,7,1,1,1,7,1,7,5,3,9,3,9,1,7,8,7,9,3,7,3,3,2,1
+,,,,,,,,,1,20,Pre-Calculus,1,549,1,9,9,3,9,7,1,3,9,9,9,8,8,9,7,6,9,1,2,1,1,1,3,9,4,1,1,1,1,6,9,1,8,8,9,1,9,9,9,9,1,2,9,2,1,1
+1,,,,,,,,"Earth hour 2012 31st March, 830pm, we are to switch off our lights to send a powerful message for action on climate change.",2,,Mathematics 1 (UOL degree),1,,1,4,8,5,6,7,5,4,8,7,8,6,4,7,6,3,5,5,2,6,3,1,5,7,5,1,7,3,6,7,7,6,3,7,3,7,7,4,6,7,4,6,3,4,5,4
+,1,,,,,,,General discussion of effects and implications of Global Warming as part of a Enviro Sci introductary course,1,,Calc 5 (Multi Variable calc),1,695,1,2,7,8,4,8,7,4,7,7,6,8,5,6,5,3,3,2,4,5,6,1,6,6,,1,8,3,8,8,3,6,3,3,5,7,7,3,6,,6,8,2,3,8,6
+,,,,,,,,,2,18,Math 54,2,604,1,8,8,2,7,5,2,7,8,9,8,2,3,8,7,6,6,5,7,3,2,1,5,7,3,1,5,6,6,7,3,6,4,4,4,6,7,6,7,3,3,7,2,6,6,6
+,,,,,,,,,2,5,Math 7B,1,720,1,7,7,5,5,5,5,5,5,5,5,5,5,5,5,7,5,5,5,7,7,1,5,5,,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+,,,,,,,,,2,10,Math 7B,1,800,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,5,5,0,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+,,,,,,,,,1,,Math 53,2,591,1,6,7,7,5,5,1,3,7,7,8,3,3,7,5,5,5,1,5,1,3,1,,7,,1,5,4,3,7,3,7,7,5,3,4,7,5,7,3,3,7,4,3,3,7
+,,,,,,,,,1,,Stat 150,3,414,1,8,7,4,1,1,1,3,8,8,6,2,1,6,3,9,8,1,9,1,4,1,5,5,2,1,7,7,6,6,1,7,3,5,7,7,8,7,5,3,4,7,3,2,5,6
+,,,,,,,,,1,,Calculus AB High School,1,570,1,5,4,6,6,5,4,6,6,6,7,5,3,7,5,4,4,3,4,3,3,1,3,6,7,1,7,3,6,9,3,4,3,4,7,7,7,8,9,4,4,7,4,3,6,5
+,,,,,,,,,1,,"Intro to statistics, MATH 13 ay Berkeley City College",2,551,1,8,9,6,6,5,1,4,9,9,9,1,3,7,6,5,5,1,4,1,4,1,5,7,6,1,3,7,3,3,6,4,6,5,6,3,5,8,7,4,5,4,5,3,4,3
+,,,,,,,,,1,20,Math 54,3,751,1,7,7,6,6,4,4,4,5,6,6,6,3,4,4,5,4,5,6,3,2,1,2,2,5,1,6,6,6,7,4,5,3,5,4,6,5,5,7,4,3,5,4,5,5,6
+,,,,,,,,,2,,,,,1,7,7,7,1,1,1,5,8,3,7,5,1,3,1,9,9,5,9,3,4,1,3,6,20,1,5,5,4,4,5,5,3,7,4,4,7,6,6,6,4,5,7,4,5,6
+,,,,,,,,,1,16,Math16B,2,791,1,3,9,9,9,9,8,8,9,7,9,5,9,8,9,1,1,9,1,8,2,1,4,7,0,1,7,6,5,7,5,5,5,4,6,5,7,5,5,8,5,5,6,4,5,3
+,,,,,,,,,2,4,statistics ,1,496,1,5,7,5,3,3,3,3,7,8,7,3,3,7,3,7,3,3,7,3,3,1,5,5,51,1,6,5,4,5,5,3,7,3,7,4,7,6,4,5,5,7,3,7,3,5
+,,,,,,,,,1,6,Math 52 in Santa Monica College before transfering to UC Berkeley,1,,1,5,7,5,5,5,5,3,6,7,7,5,5,6,5,5,5,5,5,5,5,1,4,5,,1,4,5,4,7,6,5,6,4,5,4,7,6,7,6,4,7,4,3,4,5
+,,,,,,,,,2,13,Mathematics 54,1,740,1,8,8,9,8,8,3,6,5,6,9,3,2,7,8,2,2,5,2,2,4,1,5,7,0,1,8,2,8,9,1,9,2,1,8,8,9,8,9,1,1,9,2,1,8,6
+,,,,,,,,,1,14,Statistics 1,2,514,1,4,5,5,6,7,5,5,5,5,7,6,3,5,5,4,5,6,6,5,4,1,6,6,5,1,4,4,5,5,6,5,6,5,6,4,6,5,5,7,6,6,5,5,4,4
+,,,,,1,,,"Global warming is currently a controversial phenomenon that scientifically regards the affect of lingering greenhouse gases in the Earth's atmosphere. These gases, including carbon dixode and nitrous oxide, heat the earth's surface, causing drastic changes to weather and climate patterns. Global warming is not only directly related to but also apparently the cause of the melting of the polar ice caps. It is also the cause of more frequent natural disasters.",1,,Mathematics 1B,6,750,1,6,7,8,7,7,2,6,6,6,6,3,4,7,7,3,3,7,3,3,3,1,5,6,7,1,5,4,5,6,5,5,5,5,5,6,5,5,5,4,6,5,5,5,4,5
+,,,,,,,,,1,15,Math 16A,1,551,1,7,8,6,7,8,6,2,9,9,9,3,2,8,7,1,2,6,2,8,4,1,4,8,7,1,5,6,4,7,5,6,5,3,6,7,7,7,6,6,4,6,5,4,4,6
+,,,,,,,,,2,7,AP Calculus BC,1,706,1,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,1,9,7,7,7,1,6,5,10,1,,7,3,7,7,3,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+,,,,,,,,,1,18,Math 1b,1,789,1,4,6,8,9,9,4,6,7,5,8,3,5,5,9,1,1,9,1,6,6,1,3,3,4,1,7,4,7,7,5,5,4,6,5,7,5,5,7,4,4,4,3,3,3,5
+,,,,,,,,,1,,Psychology 101,2,580,1,7,8,5,4,5,1,3,7,7,9,3,1,6,5,6,7,3,6,1,3,1,5,6,3,1,4,6,5,6,4,8,5,5,7,4,7,7,6,4,5,6,5,3,5,5
+,,,,,,,,,1,15,Math 16A,2,701,1,7,7,4,7,5,4,5,7,6,7,4,3,5,7,5,5,4,4,3,2,1,7,6,5,1,6,5,5,6,6,6,5,5,6,5,6,6,6,5,6,6,6,6,6,5
+,,,,,,,,,1,,,,649,1,8,5,3,5,5,5,5,5,4,7,2,1,6,5,5,5,5,5,5,2,1,3,3,0,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+,,,,,,,,,1,,Statistics and Probablity ,1,510,1,3,6,3,8,7,7,5,7,6,7,7,6,7,7,3,3,7,1,8,4,1,4,5,33,1,4,4,5,4,6,5,4,6,6,3,6,7,6,6,3,6,5,3,6,5
+,,,,,,,,,1,,Calculus AB (High School),3,475,1,7,6,6,1,6,1,6,6,5,7,2,2,5,5,9,9,1,9,1,3,1,5,6,10,1,5,5,5,7,5,4,5,3,6,5,5,8,8,6,5,5,3,2,4,5
+,,,,,,,,,1,,Statistics 1000,4,500,1,8,7,3,1,1,1,5,7,5,7,2,5,6,1,9,9,1,9,1,1,1,2,2,4,1,2,6,3,4,6,2,7,5,8,1,4,7,7,6,6,3,4,4,1,1
+,,,,,,,,,1,,16A,3,671,1,6,6,7,8,6,3,5,6,7,7,6,3,6,7,2,2,6,1,5,5,1,5,4,4,1,3,4,4,4,3,5,6,3,6,6,6,5,7,6,4,6,6,5,4,4
+,,,,,,,,,2,,,3,,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,5,5,6,1,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+,,,,,,,1,"I took EPS 80, where it was covered in detail, some of my other biology classes have mentioned it as well.",1,,Math 1B,3,800,1,9,6,6,4,7,2,7,6,6,6,1,2,6,9,6,5,5,8,1,3,1,6,5,0,1,5,3,6,8,3,6,3,4,4,5,7,4,6,2,4,7,4,3,6,7
+,,,,,,,,,2,16,,3,396,1,3,7,4,6,6,4,6,3,6,7,6,6,3,6,4,5,5,5,4,2,1,6,6,,1,3,8,2,9,7,1,7,8,8,5,2,7,7,6,6,4,5,3,1,5
+1,,,,,,,,Our use of certain chemicals is destroying the ozone layer.,1,,Psych 101,2,485,1,9,8,5,2,4,1,2,8,8,8,1,1,7,6,8,7,1,8,1,3,1,6,6,,1,2,4,3,6,3,6,6,3,7,3,4,6,3,3,3,6,4,2,3,3
+,,,,,,,,,2,,"Game Theory, lvl 4000 module. I am a third-year going fourth-year Applied Mathematics Major from the National University of Singapore.",2,800,1,7,7,5,3,3,3,5,6,6,6,5,3,7,3,7,8,5,6,3,3,1,5,6,0,1,6,3,7,7,3,5,3,5,5,7,6,7,7,5,5,7,5,3,5,6
+,,,1,,,,,I was taking an oceanography course.,1,,Math 121,6,789,1,9,7,5,1,1,1,3,8,6,6,2,1,5,4,3,8,1,1,1,1,1,5,1,5,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,2,,University Math ,1,670,1,1,7,5,9,9,5,5,5,8,6,8,5,6,5,1,5,9,1,9,5,1,5,7,100,1,2,3,6,8,6,5,6,4,5,2,5,6,8,5,7,7,2,6,4,4
+,,,,,,,,,1,14,Calculus Math 16A,5,450,1,5,7,5,5,5,5,5,5,5,7,7,5,7,7,5,5,5,5,5,4,1,3,3,4,1,1,9,1,6,1,1,7,5,7,1,5,5,4,9,5,2,5,5,1,5
+,,,,,,,,,2,6,no math classes taken in berkeley,,530,1,9,7,3,3,3,1,6,7,8,7,2,2,7,4,7,8,1,4,1,2,1,4,7,2,1,7,3,7,7,3,7,4,2,7,6,7,8,8,3,3,7,3,2,6,3
+,,,,,,,,,1,,Math 1a,2,713,1,9,9,6,7,5,6,3,7,7,9,3,6,7,6,5,5,5,4,4,4,1,5,6,12,1,6,4,4,7,3,4,3,6,4,6,7,6,6,7,4,6,6,6,8,6
+,,,,,,,,,2,11,,,,1,7,6,5,5,4,3,5,7,7,8,3,2,7,5,5,7,3,6,3,1,1,5,6,5,1,4,3,3,7,4,7,4,3,5,4,3,7,5,5,4,7,4,3,5,5
+,,,,,,,,,1,,math 55,5,673,1,8,7,7,6,5,4,6,8,7,7,3,3,7,6,5,5,6,5,3,3,1,4,6,9,1,7,3,7,8,3,7,3,7,3,7,7,5,8,2,3,7,3,2,8,7
+,1,,,,,,,Civil Engineering Class 111,1,20,Math 54,2,781,1,6,6,7,6,6,5,4,4,5,7,5,4,6,6,4,4,7,5,5,5,1,6,5,0,1,6,4,6,6,4,6,4,4,5,6,6,4,6,4,4,6,6,4,6,6
+,,,,,,,,,1,16,Math 16B,1,754,1,8,7,5,5,6,2,3,7,7,7,2,2,8,6,4,3,2,5,3,4,1,6,7,9,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,1,,Math 54,2,551,1,7,7,6,8,6,3,6,5,6,6,5,4,7,6,4,3,6,4,5,3,1,2,5,13,1,4,3,5,7,3,5,4,4,6,6,7,6,7,4,3,7,3,3,5,6
+,,,,,,,,,2,12,Math53,2,800,1,8,8,7,6,6,3,4,7,5,7,3,3,7,7,5,6,5,7,3,2,1,7,6,2,1,4,5,5,7,5,5,5,3,6,5,8,5,7,3,5,7,3,4,6,6
+,,,,,,,,,2,12,Further Math,1,800,1,6,7,8,5,5,5,3,,7,7,7,3,7,7,5,7,2,7,5,2,1,6,6,3,1,6,3,5,8,3,5,5,2,7,4,7,7,7,3,3,8,3,2,7,5
+,,,,,,,1,,2,,,1,,1,,,,,,,,,,,,,,,,,,,,,1,,,,1,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,1,10,Math 54,2,800,1,7,3,5,9,9,7,5,5,1,5,5,3,6,1,1,1,9,1,5,3,1,5,5,2,1,7,1,6,9,1,5,3,1,3,7,9,5,7,2,3,8,1,2,7,9
+,,,,,,,,,2,,Math 53,,800,1,8,8,6,6,6,3,3,8,7,8,3,2,7,7,5,4,5,4,3,3,1,7,7,,1,8,2,8,8,2,7,2,3,5,8,8,3,8,2,2,8,2,2,8,8
+,,,1,,,,,Geo course on Climate Change,1,,AP Calc,2,691,1,8,8,8,4,5,1,2,8,8,8,2,1,8,5,4,3,2,3,1,3,1,7,7,,1,3,8,5,7,8,,8,3,5,3,7,8,8,6,3,7,4,2,4,4
+,,,1,,,,,"Took an oceanography class, a section was dedicated to the effects of global warming on the weather system (air + water currents)",1,,Math 121A,6,781,1,9,5,5,2,2,1,5,5,5,7,1,1,5,4,8,7,1,2,1,3,1,5,3,6,1,5,4,6,7,5,5,4,5,5,7,6,5,9,4,3,6,5,3,7,7
+,,,,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,1,,STATISTICS 2,1,686,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,1,,Math 1B,1,800,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
